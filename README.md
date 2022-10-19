@@ -23,7 +23,7 @@
 ## Week 2
 
 ### Roles
-- Square: Suchrita
+- Square: Suchitra
 - Triangle: Chauntel
 - Circle: Graeme
 - X: Matt
