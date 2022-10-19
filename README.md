@@ -13,32 +13,32 @@
 ## Week 1
 
 ### Roles
-- Square
-- Triangle
-- Circle
-- X
+- Square: Chauntel
+- Triangle: Graeme
+- Circle: Matt
+- X: Suchrita
 
 
 ## Week 2
 
 ### Roles
-- Square
-- Triangle
-- Circle
-- X
+- Square: Suchrita
+- Triangle: Chauntel
+- Circle: Graeme
+- X: Matt
 
 ## Week 3
 
 ### Roles
-- Square
-- Triangle
-- Circle
-- X
+- Square: Matt
+- Triangle: Suchitra
+- Circle: Chauntel
+- X: Graeme
 
 ## Week 4
 
 ### Roles
-- Square
-- Triangle
-- Circle
-- X
+- Square: Graeme
+- Triangle: Matt
+- Circle: Suchitra
+- X: Chauntel
