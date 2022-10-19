@@ -19,6 +19,7 @@
 - X: Suchrita
 
 
+
 ## Week 2
 
 ### Roles
@@ -26,6 +27,8 @@
 - Triangle: Chauntel
 - Circle: Graeme
 - X: Matt
+
+
 
 ## Week 3
 
@@ -35,6 +38,8 @@
 - Circle: Chauntel
 - X: Graeme
 
+
+
 ## Week 4
 
 ### Roles
@@ -42,3 +47,5 @@
 - Triangle: Matt
 - Circle: Suchitra
 - X: Chauntel
+
+
