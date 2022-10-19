@@ -16,7 +16,7 @@
 - Square: Chauntel
 - Triangle: Graeme
 - Circle: Matt
-- X: Suchrita
+- X: Suchitra
 
 
 
