@@ -1,4 +1,21 @@
-# Final Project
+# Final Project - Diamonds are Forever
+
+### Overview 
+1.  Decide on a topic for the project—think of a question that can be answered using data.
+Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond. This study is a supervised learning problem because each diamond it's features is associated with a target price. 
+
+2.  Create a repository for the project and invite the other team members to join.
+✅
+3.  Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
+link from diamondse tab 
+- https://www.diamondse.info/diamond-prices.asp
+- https://www.kaggle.com/datasets/shivam2503/diamonds
+
+4. Begin to clean, organize, and perform exploratory data analysis on your datasets so that they're ready for analysis.
+⏳ Pending 
+
+- Include mockups of a machine learning model and a database.
+⏳ Pending 
 
 ### Role Definitions: 
 - Square: The team member in the square role will be responsible for setting up the repository. This includes naming the repository and adding team members.
