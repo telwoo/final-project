@@ -6,7 +6,7 @@ Diamonds have a variety of measurable characteristics that contribute to the ove
 ### Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
 Link from diamondse tab 
 - https://www.diamondse.info/diamond-prices.asp
-- https://www.kaggle.com/datasets/shivam2503/diamonds
+- https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
 
 
 ## Role Definitions: 
