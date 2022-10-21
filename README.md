@@ -1,7 +1,7 @@
 # Final Project - **Diamonds 💎 are forever... but is their value? 🧐**
 
 ### Overview 
-Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond. This study is a supervised learning problem because each diamond and it's features are associated with a target price. 
+Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. This study is a supervised learning problem because each diamond and it's features are associated with a target price. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond to understand the numerical value in the year 2022. 
 
 ### Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
 Link from diamondse tab 
