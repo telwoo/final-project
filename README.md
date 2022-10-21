@@ -1,8 +1,8 @@
-# Final Project - Diamonds are Forever
+# Final Project - **Diamonds 💎 are forever... but is their value? 🧐**
 
 ### Overview 
 1.  Decide on a topic for the project—think of a question that can be answered using data.
-Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond. This study is a supervised learning problem because each diamond it's features is associated with a target price. 
+## Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond. This study is a supervised learning problem because each diamond it's features is associated with a target price. 
 
 2.  Create a repository for the project and invite the other team members to join.
 ✅
