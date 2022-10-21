@@ -23,8 +23,8 @@ Link from diamondse tab
 
 ### Roles
 - Square: Chauntel
-- Triangle: Graeme
-- Circle: Matt
+- Circle: Graeme
+- Triangle: Matt
 - X: Suchitra
 
 
@@ -33,28 +33,28 @@ Link from diamondse tab
 
 ### Roles
 - Square: Suchitra
-- Triangle: Chauntel
-- Circle: Graeme
-- X: Matt
+- Circle: Chauntel
+- Triangle: Matt
+- X: Graeme
 
 
 
 ## Week 3
 
 ### Roles
-- Square: Matt
-- Triangle: Suchitra
-- Circle: Chauntel
-- X: Graeme
+- Square: Suchitra
+- Circle: Graeme
+- Triangle: Chauntel
+- X: Matt
 
 
 
 ## Week 4
 
 ### Roles
-- Square: Graeme
+- Square: Suchitra
+- Circle: Graeme
 - Triangle: Matt
-- Circle: Suchitra
 - X: Chauntel
 
 
