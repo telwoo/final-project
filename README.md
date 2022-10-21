@@ -3,13 +3,13 @@
 ### Overview 
 Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond. This study is a supervised learning problem because each diamond it's features is associated with a target price. 
 
-Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
-1. Link from diamondse tab 
+### Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
+Link from diamondse tab 
 - https://www.diamondse.info/diamond-prices.asp
 - https://www.kaggle.com/datasets/shivam2503/diamonds
 
 
-### Role Definitions: 
+## Role Definitions: 
 - Square: The team member in the square role will be responsible for setting up the repository. This includes naming the repository and adding team members.
 
 - Triangle: The team member in the triangle role is responsible for creating a simple machine learning model. Creating a simple model this early in the design process helps a team better understand where and how a machine learning model will fit into the project. 
