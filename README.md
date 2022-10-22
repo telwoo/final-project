@@ -16,21 +16,21 @@
 - Square: Chauntel
 - **Triangle: Graeme**
 
-    - **Provenance and schema of data** Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
-        - `carat` ranges from 0.2 to 30.0
-        - `cut` grade has three categories: Good, V.Good, and Ideal
-        - `color` has nine categories: D/E/F/G/H/I/J/K/L
-        - `clarity` has ten categories: FL/IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1/I2
+    - **Provenance and schema of data.** Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
+        - `carat` ranges from 0.2 to 30.0.
+        - `cut` grade has three categories: Good, V.Good, and Ideal.
+        - `color` has nine categories: D/E/F/G/H/I/J/K/L.
+        - `clarity` has ten categories: FL/IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1/I2.
         - `depth` is the table depth which ranges from 0% to 90%. This feature should be renamed `table_depth`.
         - `table` is the table width ranges from 0% to 90%. This feature should be renamed `table_width`.
-        - `x` is the length of the diamond in mm
-        - `y` is the width of the diamond in mm
-        - `z` is the depth of the diamond in mm
-        - `price` is the price of the diamond in $USD set by the jeweler
+        - `x` is the length of the diamond in mm.
+        - `y` is the width of the diamond in mm.
+        - `z` is the depth of the diamond in mm.
+        - `price` is the price of the diamond in $USD set by the jeweler.
 
-    - **Input data from the provisional database** 
+    - **Input data from the provisional database.** 
 
-    - **Outputs (target) label for input (features) data**
+    - **Outputs (target) label for input (features) data.**
 
 
 
