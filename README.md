@@ -22,7 +22,7 @@
         - `color` has nine categories: D/E/F/G/H/I/J/K/L.
         - `clarity` has ten categories: FL/IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1/I2.
         - `depth` is the table depth which ranges from 0% to 90%. This feature should be renamed `table_depth`.
-        - `table` is the table width ranges from 0% to 90%. This feature should be renamed `table_width`.
+        - `table` is the table width which ranges from 0% to 90%. This feature should be renamed `table_width`.
         - `x` is the length of the diamond in mm.
         - `y` is the width of the diamond in mm.
         - `z` is the depth of the diamond in mm.
