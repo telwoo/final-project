@@ -14,6 +14,14 @@
 
 ### Roles
 - Square: Chauntel
+- - Square: Chauntel
+	- Created and added a repository 
+	- Completed adding team to a repository
+	- Pushed my personal repository to the main branch
+	- drafted test readme and pushed to the repository
+	- Received the following links to use for the project. These links outline parsing and what functions we could utilize for parsing/linear models:
+		* https://stackoverflow.com/questions/34451518/how-to-obtain-field-names-of-rss-feedxml-file-in-python-dynamically-using-feed
+		* http://napitupulu-jon.appspot.com/posts/diamonds-analysis.html
 - Triangle: Graeme
 - Circle: Matt
 - X: Suchitra
