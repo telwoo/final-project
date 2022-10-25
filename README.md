@@ -14,7 +14,6 @@
 
 ### Roles
 - Square: Chauntel
-- - Square: Chauntel
 	- Created and added a repository 
 	- Completed adding team to a repository
 	- Pushed my personal repository to the main branch
