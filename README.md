@@ -24,7 +24,14 @@ Link from diamondse tab
 ### Roles
 - Square: Chauntel
 - Triangle: Graeme
-- Circle: Matt
+- **Circle: Matt**
+    - Created ERD showing single table for Diamond data
+
+![image_name](/Resources/ERD_single_table.png)
+
+    - Created schema.sql to create database table within PGadmin
+    - Created queries.sql to remove index column once data is imported
+
 - X: Suchitra
 
 
