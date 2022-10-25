@@ -24,7 +24,7 @@ Link from diamondse tab
 ### Roles
 - Square: Chauntel
 - Triangle: Graeme
-- **Circle: Matt**
+- **Circle: Matt** As the team member in the circle role, I was responsible with mocking up a database. I utilized the online tool for building an ER diagram from www.quickdatabasediagrams.com to produce a schema for our single table database and used PGadmin within a postgresql database to store the data locally.
     - Created ERD showing single table for Diamond data
 
 ![image_name](/Resources/ERD_single_table.png)
