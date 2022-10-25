@@ -25,10 +25,13 @@ Link from diamondse tab
 - Square: Chauntel
 - Triangle: Graeme
 - Circle: Matt
-- **X: Suchitra**
+- **X: Suchitra** ⬅ 🧐
 - **Created and added a repository**
 - **As a team, we aligned on utlizing the following tools: Python, Googlecolab/Jupyter Notebook, and PgAdmin.** 
 - **Initially we will be reading in a CSV > then we will read the CSV into a postgres database > then we will read from the postgres database into what we will be doing > lastly we will be using Jupyter Notebook/Google Colab.** 
+- **Identified two datasets**
+- https://www.diamondse.info/diamond-prices.asp
+- https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
 
 
 ## Week 2
