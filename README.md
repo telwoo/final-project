@@ -14,10 +14,10 @@
 
 ### Roles
 - Square: Chauntel
-	- Created and added a repository 
-	- Completed adding team to a repository
-	- Pushed my personal repository to the main branch
-	- drafted test readme and pushed to the repository
+	- Created and added a new repository 
+	- Completed adding team to newly created repository
+	- Pushed my personal branch to the GitHub
+	- Drafted test readme and will push and combine/compare to the main branch
 	- Received the following links to use for the project. These links outline parsing and what functions we could utilize for parsing/linear models:
 		* https://stackoverflow.com/questions/34451518/how-to-obtain-field-names-of-rss-feedxml-file-in-python-dynamically-using-feed
 		* http://napitupulu-jon.appspot.com/posts/diamonds-analysis.html
