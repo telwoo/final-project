@@ -23,15 +23,31 @@
         - `clarity` has ten categories: FL/IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1/I2.
         - `depth` is the table depth which ranges from 0% to 90%. This feature should be renamed `table_depth`.
         - `table` is the table width which ranges from 0% to 90%. This feature should be renamed `table_width`.
+        - Regarding the 'depth' and 'table' features, 
+        please see [Understanding Diamond Table and Depth](https://www.brilliance.com/education/diamonds/depth-table?creative=617868835387&keyword=%2Bwhat%20%2Bdiamond%20%2Btable&matchtype=b&network=g&device=c&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP2pOhrNc4qaEWmpQvkH5PlLWDC-Z2_WX98YcHipvfzp_CEodbSIN4xoCM88QAvD_BwE).
         - `x` is the length of the diamond in mm.
         - `y` is the width of the diamond in mm.
         - `z` is the depth of the diamond in mm.
         - `price` is the price of the diamond in $USD set by the jeweler.
 
-    - **Input data from the provisional database.** 
+    - **Description of Data Preprocession.** 
+    The data is well formatted. 
+    It is recommended that the field 'depth' 
+    is renamed 'table_depth' for clarity.
+    It is recommended that the field 'table' 
+    is renamed 'table_width' for clarity.
+
+    - **Description of feature engineering and the feature selection, 
+    including the team's decision-making process.** 
+    All the features in the dataset are well delineated and independant 
+    of each other. As a team, we agree to use 
+    `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,
+    `x`, `y`, and `z` as model features.
+    
+    - **Input data from the provisional database.** See file `file.ipynb`.
 
     - **Outputs (target) label for input (features) data.**
-
+The field `price` is the model target.
 
 
 ---
