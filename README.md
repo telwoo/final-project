@@ -44,7 +44,7 @@
     `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,
     `x`, `y`, and `z` as model features.
     
-    - **Input data from the provisional database.** See file `file.ipynb`.
+    - **Input data from the provisional database.** See file [import_provisional_data](https://github.com/telwoo/final-project/blob/graemet/segment1/import_provisional_data.ipynb).
 
     - **Outputs (target) label for input (features) data.**
 The field `price` is the model target.
