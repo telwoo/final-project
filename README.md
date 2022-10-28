@@ -61,7 +61,13 @@ The field `price` is the model target.
 
 ---
 
-- Circle: Matt
+- **Circle: Matt** As the team member in the circle role, I was responsible with mocking up a database. I utilized the online tool for building an ER diagram from www.quickdatabasediagrams.com to produce a schema for our single table database and used PGadmin within a postgresql database to store the data locally.
+    - Created ERD showing single table for Diamond data
+    - Created schema.sql to create database table within PGadmin
+    - Created queries.sql to remove index column once data is imported
+
+![image_name](/Resources/ERD_single_table.png)
+
 - **X: Suchitra** ⬅ 🧐
     - **Created and added a repository**
     - **As a team, we aligned on utlizing the following tools: Python, Googlecolab/Jupyter Notebook, and PgAdmin.** 
@@ -69,6 +75,7 @@ The field `price` is the model target.
     - **Identified two datasets**
       - https://www.diamondse.info/diamond-prices.asp
       - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
+
 
 
 ## Week 2
