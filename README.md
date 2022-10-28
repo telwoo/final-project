@@ -23,6 +23,18 @@ Link from diamondse tab
 
 ### Roles
 - Square: Chauntel
+
+	- Created and added a new repository 
+	- Completed adding team to newly created repository
+	- Pushed my personal branch to the GitHub
+	- Drafted test readme and will push and combine/compare to the main branch
+	- Received the following links to use for the project. These links outline parsing and what functions we could utilize for parsing/linear models:
+		* https://stackoverflow.com/questions/34451518/how-to-obtain-field-names-of-rss-feedxml-file-in-python-dynamically-using-feed
+		* http://napitupulu-jon.appspot.com/posts/diamonds-analysis.html
+- Triangle: Graeme
+- Circle: Matt
+- X: Suchitra
+=======
 - **Triangle: Graeme**
 
     - **Provenance and schema of data.** Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
@@ -75,6 +87,7 @@ The field `price` is the model target.
     - **Identified two datasets**
       - https://www.diamondse.info/diamond-prices.asp
       - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
+
 
 
 
