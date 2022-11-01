@@ -91,10 +91,10 @@ The field `price` is the model target.
 ## Week 2
 
 ### Roles
-- Square: Suchitra
-- Triangle: Chauntel
-- Circle: Graeme
-- X: Matt
+- Square: Graeme and Suchitra
+- Triangle: Matt and Chauntel
+- Circle: Graeme and Chauntel
+- X: Matt and Suchitra
 
 
 ## Week 3
