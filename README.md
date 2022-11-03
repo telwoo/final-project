@@ -118,7 +118,7 @@ The field `price` is the model target.
 					a. Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
 				5. Used connection string, SQLAlchemy to migrate our data
 					a. Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
-				![image](https://user-images.githubusercontent.com/106715923/199854625-32d44af2-fa30-4370-948d-e26978745328.png)
+				
 
 	- Circle: 
 		- Graeme 
