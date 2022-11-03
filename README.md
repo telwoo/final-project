@@ -119,7 +119,7 @@ The field `price` is the model target.
 				5. Used connection string, SQLAlchemy to migrate our data
 					a. Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
 				
-
+				
 	- Circle: 
 		- Graeme 
 		- Chauntel: The two images below are related to the tables create in our database, PGAdmin. 
