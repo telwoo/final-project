@@ -107,17 +107,17 @@ The field `price` is the model target.
 				- PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
 			- After we created a main database within PostgresSQL 11 (named "Diamonds_Price_Data"), we completed the following:
 				1. We performed this function: SELECT DISTINCT * for the following features: cut, clarity, color. This function allowed 				us to get the specific, non-numerical categories with those specified columns.
-					- We were able to determine that:
+					* We were able to determine that:
 						- Cut column has 5 categories
 						- Color column has 7 categories
 						- Clarity column has 8 categories 
 				2. Came to the conclusion that since cut had a higher impact on diamond price, and fewer category options, determined 					that cut would be the best choice for table comparisons. 
-					a. Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
+					- Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
 				3. Created 5 tables, based on the cut of the diamond
 				4. Used full outer join to merge together two tables: fair and premium, and good and very good. 
-					a. Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
+					* Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
 				5. Used connection string, SQLAlchemy to migrate our data
-					a. Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
+					* Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
 				
 				
 	- Circle: 
