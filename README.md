@@ -84,7 +84,7 @@ The field `price` is the model target.
     - **Identified two datasets**
       - https://www.diamondse.info/diamond-prices.asp
       - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
-
+ 
 
 ## Segment 2 (Week 2)
 
