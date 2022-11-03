@@ -108,10 +108,10 @@ The field `price` is the model target.
 			- After we created a main database within PostgresSQL 11 (named "Diamonds_Price_Data"), we completed the following:
 				1. We performed this function: SELECT DISTINCT * for the following features: cut, clarity, color. This function allowed 				us to get the specific, non-numerical categories with those specified columns.
 					a. We were able to determine that:
+				
 						- Cut column has 5 categories
 						- Color column has 7 categories
 						- Clarity column has 8 categories 
-				
 				2. Came to the conclusion that since cut had a higher impact on diamond price, and fewer category options, determined 					that cut would be the best choice for table comparisons. 
 					a. Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
 				3. Created 5 tables, based on the cut of the diamond
