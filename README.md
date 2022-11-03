@@ -91,9 +91,12 @@ The field `price` is the model target.
 ## Week 2
 
 ### Roles
+
 - Square: Suchitra
 - Triangle: Chauntel
-- Circle: Graeme
+- **Circle: Graeme**
+    - header
+
 - X: Matt
 
 
