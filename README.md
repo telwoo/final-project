@@ -88,7 +88,7 @@ The field `price` is the model target.
 
 
 
-## Week 2
+## Segment 2 (Week 2)
 
 ### Roles
 - Square: Graeme and Suchitra
@@ -97,7 +97,7 @@ The field `price` is the model target.
 - X: Matt and Suchitra
 
 
-## Week 3
+## Segment 3 (Week 3)
 
 ### Roles
 - Square: Matt
@@ -106,7 +106,7 @@ The field `price` is the model target.
 - X: Graeme
 
 
-## Week 4
+## Segment 4 (Week 4)
 
 ### Roles
 - Square: Graeme
