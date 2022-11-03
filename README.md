@@ -88,26 +88,36 @@ The field `price` is the model target.
 
 
 
-## Segment 2 (Week 2)
+## Week 2
 
 ### Roles
-- Roles
-	- Square: 
-		- Graeme:
-		- Suchitra:
 
-	- Triangle: 
-		- Matthew:
-		- Chauntel:
-	- Circle: 
-		- Graeme 
-		- Chauntel
+- Square: Graeme and Suchitra
+- Graeme
+    - Description of Preliminary Data Preprocessing:
+        - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
+    - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
+        - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
+        - One hot encoding was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
+        - 
 
-	- X: 
-		- Matt
-		- Suchitra
 
-## Segment 3 (Week 3)
+Suchitra:
+Triangle: Matthew and Chauntel
+Matthew:
+Chauntel:
+Circle: Graeme and Chauntel
+Graeme:
+Chauntel:
+X: Matt and Suchitra
+Matthew:
+Suchitra:
+
+
+
+
+
+## Week 3
 
 ### Roles
 - Square: Matt
@@ -116,7 +126,7 @@ The field `price` is the model target.
 - X: Graeme
 
 
-## Segment 4 (Week 4)
+## Week 4
 
 ### Roles
 - Square: Graeme
