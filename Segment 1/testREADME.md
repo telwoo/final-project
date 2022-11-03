@@ -32,6 +32,7 @@ The overall purpose of this project is to test our data analytics skills, to be 
 ## Week 2
 
 ### Roles
+
 - DRAFT SECTION FOR CIRCLE ROLE
 - Circle: Chauntel and Matt
 • This role is responsible for transforming the mockup database created in Segment 1 into a full database that integrates into our current work, related to diamond pricing based on different features. The nine features we're utilizing (carat, cut, color, clarity, depth, table, x, y, z, price) is defined in Segment 1, under the Triangle role. 
