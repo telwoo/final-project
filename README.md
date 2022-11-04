@@ -95,6 +95,11 @@ The field `price` is the model target.
 Square:
 
 Graeme:
+- Description of Preliminary Data Preprocessing:
+        - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
+    - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
+        - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
+        - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
 
 Suchitra:
 
@@ -109,31 +114,10 @@ Triangle:
 
 Matthew:
 Chauntel:
-Circle:
 
-Graeme
-Chauntel
-X:
-=======
-### Roles
+Circle: 
 
-- Square: Graeme and Suchitra
-- Graeme
-    - Description of Preliminary Data Preprocessing:
-        - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
-    - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
-        - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
-        - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
-    
-
-
-Suchitra:
-Triangle: Matthew and Chauntel
-Matthew:
-Chauntel:
-Circle: Graeme and Chauntel
 Graeme:
-
 ![shape and head of initial data frame](Resources/df_init.png)
 Fig. The shape and head of the initial data frame.
 
@@ -141,16 +125,9 @@ Fig. The shape and head of the initial data frame.
 Fig. Description of features.
 
 Chauntel:
-X: Matt and Suchitra
+
+X: 
 Matthew:
-Suchitra:
-
-
-
-
-
-Matt:
-
 Suchitra:
 
 *Created two stories to showcase the visualizations created in Tableau.*
