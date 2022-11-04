@@ -90,6 +90,31 @@ The field `price` is the model target.
 
 ## Week 2
 
+
+**Roles**
+Square:
+
+Graeme:
+
+Suchitra:
+
+**Description of how data was split into training and testing sets**
+- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
+- Utilized StandardScaler() to scale the features prior to modelling.
+
+**Explanation of Model Choice, including limitations and benefits**
+- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
+
+Triangle:
+
+Matthew:
+Chauntel:
+Circle:
+
+Graeme
+Chauntel
+X:
+=======
 ### Roles
 
 - Square: Graeme and Suchitra
@@ -124,6 +149,18 @@ Suchitra:
 
 
 
+Matt:
+
+Suchitra:
+
+*Created two stories to showcase the visualizations created in Tableau.*
+
+**Cut Breakdown by Dataset:**
+- This visual showcases the cut breakdown by dataset. The aggregate result of the dataset showcases that jewlers priced more ideal cut diamonds during the year 2022.
+
+**Quality of Diamond:**
+- This visual showcases the quality of a diamond by comparing the cut vs. the average price. We are able to identify the quality by understanding from fairness of the diamond. There are 5 types of cuts and the average price gradually increases as we read from left to right.
+
 ## Week 3
 
 ### Roles
@@ -140,6 +177,9 @@ Suchitra:
 - Triangle: Matt
 - Circle: Suchitra
 - X: Chauntel
+
+=======
  
+
 
 
