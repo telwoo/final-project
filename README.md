@@ -170,11 +170,6 @@ Fig. Description of features.
   - This visual showcases the quality of a diamond by comparing the cut vs. the average price. We are able to identify the quality by understanding from fairness of the diamond. There are 5 types of cuts and the average price gradually increases as we read from left to right.
 
 
-### Roles
-- Square: Matt
-- Triangle: Suchitra
-- Circle: Chauntel
-- X: Graeme
 
 ## Segment 3 (Week 3)
 
