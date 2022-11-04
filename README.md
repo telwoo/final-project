@@ -23,8 +23,60 @@ Link from diamondse tab
 
 ### Roles
 - Square: Chauntel
-- Triangle: Graeme
-- Circle: Matt
+
+	- Created and added a new repository 
+	- Completed adding team to newly created repository
+	- Pushed my personal branch to the GitHub
+	- Drafted test readme and will push and combine/compare to the main branch
+	- Received the following links to use for the project. These links outline parsing and what functions we could utilize for parsing/linear models:
+		* https://stackoverflow.com/questions/34451518/how-to-obtain-field-names-of-rss-feedxml-file-in-python-dynamically-using-feed
+		* http://napitupulu-jon.appspot.com/posts/diamonds-analysis.html
+
+- **Triangle: Graeme**
+
+    - **Provenance and schema of data.** Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
+        - `carat` ranges from 0.2 to 30.0.
+        - `cut` grade has three categories: Good, V.Good, and Ideal.
+        - `color` has nine categories: D/E/F/G/H/I/J/K/L.
+        - `clarity` has ten categories: FL/IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1/I2.
+        - `depth` is the table depth which ranges from 0% to 90%. This feature should be renamed `table_depth`.
+        - `table` is the table width which ranges from 0% to 90%. This feature should be renamed `table_width`.
+        - Regarding the 'depth' and 'table' features, 
+        please see [Understanding Diamond Table and Depth](https://www.brilliance.com/education/diamonds/depth-table?creative=617868835387&keyword=%2Bwhat%20%2Bdiamond%20%2Btable&matchtype=b&network=g&device=c&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP2pOhrNc4qaEWmpQvkH5PlLWDC-Z2_WX98YcHipvfzp_CEodbSIN4xoCM88QAvD_BwE).
+        - `x` is the length of the diamond in mm.
+        - `y` is the width of the diamond in mm.
+        - `z` is the depth of the diamond in mm.
+        - `price` is the price of the diamond in $USD set by the jeweler.
+
+    - **Description of Data Preprocession.** 
+    The data is well formatted. 
+    It is recommended that the field 'depth' 
+    is renamed 'table_depth' for clarity.
+    It is recommended that the field 'table' 
+    is renamed 'table_width' for clarity.
+
+    - **Description of feature engineering and the feature selection, 
+    including the team's decision-making process.** 
+    All the features in the dataset are well delineated and independant 
+    of each other. As a team, we agree to use 
+    `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,
+    `x`, `y`, and `z` as model features.
+    
+    - **Input data from the provisional database.** See file [import_provisional_data](https://github.com/telwoo/final-project/blob/graemet/segment1/import_provisional_data.ipynb).
+
+    - **Outputs (target) label for input (features) data.**
+The field `price` is the model target.
+
+
+---
+
+- **Circle: Matt** As the team member in the circle role, I was responsible with mocking up a database. I utilized the online tool for building an ER diagram from www.quickdatabasediagrams.com to produce a schema for our single table database and used PGadmin within a postgresql database to store the data locally.
+    - Created ERD showing single table for Diamond data
+    - Created schema.sql to create database table within PGadmin
+    - Created queries.sql to remove index column once data is imported
+
+![image_name](/Resources/ERD_single_table.png)
+
 - **X: Suchitra** ⬅ 🧐
     - **Created and added a repository**
     - **As a team, we aligned on utlizing the following tools: Python, Googlecolab/Jupyter Notebook, and PgAdmin.** 
@@ -34,7 +86,10 @@ Link from diamondse tab
       - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
 
 
+
+
 ## Week 2
+
 
 **Roles**
 Square:
@@ -59,6 +114,40 @@ Circle:
 Graeme
 Chauntel
 X:
+=======
+### Roles
+
+- Square: Graeme and Suchitra
+- Graeme
+    - Description of Preliminary Data Preprocessing:
+        - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
+    - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
+        - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
+        - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
+    
+
+
+Suchitra:
+Triangle: Matthew and Chauntel
+Matthew:
+Chauntel:
+Circle: Graeme and Chauntel
+Graeme:
+
+![shape and head of initial data frame](Resources/df_init.png)
+Fig. The shape and head of the initial data frame.
+
+![shape and head of initial data frame](Resources/df_tt.png)
+Fig. Description of features.
+
+Chauntel:
+X: Matt and Suchitra
+Matthew:
+Suchitra:
+
+
+
+
 
 Matt:
 
@@ -88,3 +177,9 @@ Suchitra:
 - Triangle: Matt
 - Circle: Suchitra
 - X: Chauntel
+
+=======
+ 
+
+
+
