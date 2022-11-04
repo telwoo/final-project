@@ -108,6 +108,13 @@ Matthew:
 Chauntel:
 Circle: Graeme and Chauntel
 Graeme:
+
+![shape and head of initial data frame](Resources/df_init.png)
+Fig. The shape and head of the initial data frame.
+
+![shape and head of initial data frame](Resources/df_tt.png)
+Fig. Description of features.
+
 Chauntel:
 X: Matt and Suchitra
 Matthew:
