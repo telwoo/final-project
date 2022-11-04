@@ -62,7 +62,7 @@ X:
 
 Matt:
 
-Suchitra:
+*Suchitra:*
 
 **Created two stories to showcase the visualizations created in Tableau.**
 
