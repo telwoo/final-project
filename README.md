@@ -141,17 +141,18 @@ Fig. The shape and head of the initial data frame.
 
 ![shape and head of initial data frame](Resources/df_tt.png)
 Fig. Description of features.
-		- Chauntel: The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium. There are two additional tables separating categorical features (i.e. clarity or cut) and numeric features (i.e. depth or carat). 
+
+- Chauntel: The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium. There are two additional tables separating categorical features (i.e. clarity or cut) and numeric features (i.e. depth or carat). 
 		
-		![ERD_multiple_table](https://user-images.githubusercontent.com/106715923/199855105-f8da8e38-3c94-4df0-a127-33014e928bf6.png)
+	![ERD_multiple_table](https://user-images.githubusercontent.com/106715923/199855105-f8da8e38-3c94-4df0-a127-33014e928bf6.png)
 		
-		<sup> Fig. This image is of the multiple tables created. Note that the primary key used is ID. </sup>
+	<sup> Fig. This image is of the multiple tables created. Note that the primary key used is ID. </sup>
 		
 		
 		
-		![ERD_showing_table_join](https://user-images.githubusercontent.com/106715923/199855170-4ccb2897-3f1c-48c8-bcf2-8282e8cae6d9.png)
+	![ERD_showing_table_join](https://user-images.githubusercontent.com/106715923/199855170-4ccb2897-3f1c-48c8-bcf2-8282e8cae6d9.png)
 		
-		<sup> Fig. This image showcases the tables created, utilizing the outer full join </sup>
+	<sup> Fig. This image showcases the tables created, utilizing the outer full join </sup>
 
 
 
