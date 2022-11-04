@@ -43,11 +43,11 @@ Graeme:
 
 Suchitra:
 
-** Description of how data was split into training and testing sets**
+**Description of how data was split into training and testing sets**
 - We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
 - Utilized StandardScaler() to scale the features prior to modelling.
 
-** Explanation of Model Choice, including limitations and benefits**
+**Explanation of Model Choice, including limitations and benefits**
 - Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
 
 Triangle:
