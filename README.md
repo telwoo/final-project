@@ -66,10 +66,10 @@ Suchitra:
 
 *Created two stories to showcase the visualizations created in Tableau.*
 
-**Cut Breakdown by Dataset**
+**Cut Breakdown by Dataset:**
 - This visual showcases the cut breakdown by dataset. The aggregate result of the dataset showcases that jewlers priced more ideal cut diamonds during the year 2022.
 
-**Quality of Diamond**
+**Quality of Diamond:**
 - This visual showcases the quality of a diamond by comparing the cut vs. the average price. We are able to identify the quality by understanding from fairness of the diamond. There are 5 types of cuts and the average price gradually increases as we read from left to right.
 
 ## Week 3
