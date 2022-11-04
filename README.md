@@ -89,7 +89,7 @@ The field `price` is the model target.
 ## Segment 2 (Week 2)
 
 ### Google Slides Presentation Link
-Link to [Google Slides] (https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244)
+Link to [Google Slides] (https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244). 
 
 ### Roles
 - Roles
