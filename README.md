@@ -157,10 +157,11 @@ Fig. Description of features.
 
 
 - X: 
-  - Matt: Below is a link to out Tableau Story, providing a brief glance into our dataset.
+- Matt:
+  - Below is a link to out Tableau Story, providing a brief glance into our dataset.
   - https://public.tableau.com/views/Diamond_final_project/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
-  - Suchitra: 
+- Suchitra: 
    *Created two stories to showcase the visualizations created in Tableau.*
 
    **Cut Breakdown by Dataset:**
