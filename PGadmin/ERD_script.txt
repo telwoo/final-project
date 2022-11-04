@@ -1,0 +1,112 @@
+
+diamond_prices2022
+-
+id PK serial
+carat numeric
+cut varchar
+color char(1)
+clarity varchar
+depth numeric
+table numeric
+price int
+x numeric
+y numeric
+z numeric
+
+diamonds_f
+# table specific to "Fair" cut
+-
+id PK serial FK >- diamond_prices2022.id
+carat numeric
+cut varchar
+color char(1)
+clarity varchar
+depth numeric
+table numeric
+price int
+x numeric
+y numeric
+z numeric
+
+diamonds_i
+# table specific to "Ideal" cut
+-
+id PK serial FK >- diamond_prices2022.id
+carat numeric
+cut varchar
+color char(1)
+clarity varchar
+depth numeric
+table numeric
+price int
+x numeric
+y numeric
+z numeric
+
+diamonds_g
+# table specific to "Good" cut
+-
+id PK serial FK >- diamond_prices2022.id
+carat numeric
+cut varchar
+color char(1)
+clarity varchar
+depth numeric
+table numeric
+price int
+x numeric
+y numeric
+z numeric
+
+diamonds_vg
+# table specific to "Very Good" cut
+-
+id PK serial FK >- diamond_prices2022.id
+carat numeric
+cut varchar
+color char(1)
+clarity varchar
+depth numeric
+table numeric
+price int
+x numeric
+y numeric
+z numeric
+
+diamonds_p
+# table specific to "Premium" cut
+-
+id PK serial FK >- diamond_prices2022.id
+carat numeric
+cut varchar
+color char(1)
+clarity varchar
+depth numeric
+table numeric
+price int
+x numeric
+y numeric
+z numeric
+
+diamonds_numeric_features
+# table containing the numeric measurement
+# features of the diamonds
+-
+id PK serial FK >- diamond_prices2022.id
+carat numeric FK >- diamond_prices2022.carat
+depth numeric FK >- diamond_prices2022.depth
+table numeric FK >- diamond_prices2022.table
+price int FK >- diamond_prices2022.price
+x numeric FK >- diamond_prices2022.x
+y numeric FK >- diamond_prices2022.y
+z numeric FK >- diamond_prices2022.z
+
+diamonds_categorical_features
+# table containing the categorical
+# features of the diamonds
+-
+id PK serial FK >- diamond_prices2022.id
+cut varchar FK >- diamond_prices2022.cut
+color char(1) FK >- diamond_prices2022.color
+clarity varchar FK >- diamond_prices2022.clarity
+
