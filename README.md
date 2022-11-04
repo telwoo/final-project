@@ -4,6 +4,7 @@
 Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. This study is a supervised learning problem because each diamond and it's features are associated with a target price. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond to understand the numerical value in the year 2022. 
 
 ### Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
+
 Link from diamondse tab 
 - https://www.diamondse.info/diamond-prices.asp
 - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
@@ -23,7 +24,6 @@ Link from diamondse tab
 
 ### Roles
 - Square: Chauntel
-
 	- Created and added a new repository 
 	- Completed adding team to newly created repository
 	- Pushed my personal branch to the GitHub
@@ -86,18 +86,89 @@ The field `price` is the model target.
       - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
 
 
+## Segment 2 (Week 2)
 
-
-## Week 2
+### Google Slides Presentation Link
+Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244). 
 
 ### Roles
-- Square: Suchitra
-- Triangle: Chauntel
-- Circle: Graeme
-- X: Matt
+Square:
+Graeme:
+- Description of Preliminary Data Preprocessing:
+        - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
+    - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
+        - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
+        - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
+
+Suchitra:
+
+**Description of how data was split into training and testing sets**
+- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
+- Utilized StandardScaler() to scale the features prior to modelling.
+
+**Explanation of Model Choice, including limitations and benefits**
+- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
+
+	- Triangle: 
+		- Matt: For Triangle role database updates please refer to resouces and PGadmin folders
+		- Chauntel:  
+			- This role is responsible for transforming the mockup database created in Segment 1 into a full database that 				 		integrates into our current work, related to diamond pricing based on different features. The nine features we're utilizing 				(carat, cut, color, clarity, depth, table, x, y, z, price) is defined in Segment 1, under the Triangle role. 
+				- Disclaimers: 
+					- For all column category definitions, please refer to Segment 1, Triangle role briefing.
+					- Our main source of data was "Diamonds_Prices2022.csv."
+			- The database we decided to use was PGAdmin
+				- PGAdmin is simple to use and manipulate the needed data provided by our csv. 
+				- PGAdmin allows us to have a clean and clear interface which helps us in building the necessary queries.
+				- PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
+			- After we created a main database within PostgresSQL 11 (named "Diamonds_Price_Data"), we completed the following:
+				1. We performed this function: SELECT DISTINCT * for the following features: cut, clarity, color. This function allowed 				us to get the specific, non-numerical categories with those specified columns.
+					* We were able to determine that:
+						- Cut column has 5 categories
+						- Color column has 7 categories
+						- Clarity column has 8 categories 
+				2. Came to the conclusion that since cut had a higher impact on diamond price, and fewer category options, determined 					that cut would be the best choice for table comparisons. 
+					- Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
+				3. Created 5 tables, based on the cut of the diamond
+				4. Used full outer join to merge together two tables: fair and premium, and good and very good. 
+					* Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
+				5. Used connection string, SQLAlchemy to migrate our data
+					* Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
+				
+				
+	- Circle:	 	 
+		- Graeme: ![shape and head of initial data frame](Resources/df_init.png)
+Fig. The shape and head of the initial data frame.
+
+![shape and head of initial data frame](Resources/df_tt.png)
+Fig. Description of features.
+
+- Chauntel: The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium. There are two additional tables separating categorical features (i.e. clarity or cut) and numeric features (i.e. depth or carat). 
+		
+	![ERD_multiple_table](https://user-images.githubusercontent.com/106715923/199855105-f8da8e38-3c94-4df0-a127-33014e928bf6.png)
+		
+	<sup> Fig. This image is of the multiple tables created. Note that the primary key used is ID. </sup>
+		
+		
+		
+	![ERD_showing_table_join](https://user-images.githubusercontent.com/106715923/199855170-4ccb2897-3f1c-48c8-bcf2-8282e8cae6d9.png)
+		
+	<sup> Fig. This image showcases the tables created, utilizing the outer full join </sup>
 
 
-## Week 3
+
+- X: 
+  - Matt: Below is a link to out Tableau Story, providing a brief glance into our dataset.
+  - https://public.tableau.com/views/Diamond_final_project/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+  - Suchitra: 
+*Created two stories to showcase the visualizations created in Tableau.*
+
+**Cut Breakdown by Dataset:**
+- This visual showcases the cut breakdown by dataset. The aggregate result of the dataset showcases that jewlers priced more ideal cut diamonds during the year 2022.
+
+**Quality of Diamond:**
+- This visual showcases the quality of a diamond by comparing the cut vs. the average price. We are able to identify the quality by understanding from fairness of the diamond. There are 5 types of cuts and the average price gradually increases as we read from left to right.
+
 
 ### Roles
 - Square: Matt
@@ -105,14 +176,20 @@ The field `price` is the model target.
 - Circle: Chauntel
 - X: Graeme
 
+## Segment 3 (Week 3)
 
-## Week 4
 
 ### Roles
 - Square: Graeme
 - Triangle: Matt
 - Circle: Suchitra
 - X: Chauntel
- 
+
+## Segment 4 (Week 4)
 
 
+### Roles
+- Square: Graeme
+- Triangle: Matt
+- Circle: Suchitra
+- X: Chauntel
