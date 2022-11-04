@@ -4,7 +4,7 @@
 Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. This study is a supervised learning problem because each diamond and it's features are associated with a target price. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond to understand the numerical value in the year 2022. 
 
 ### Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
-Link from diamondse tab 
+Link from diamonds tab 
 - https://www.diamondse.info/diamond-prices.asp
 - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
 
@@ -88,6 +88,9 @@ The field `price` is the model target.
 
 ## Segment 2 (Week 2)
 
+### Google Slides Presentation Link
+Link to Google Slides: [
+](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244)
 ### Roles
 - Roles
 	- Square: 
