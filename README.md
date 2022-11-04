@@ -155,7 +155,7 @@ Fig. Description of features.
 
 
 
-	- X: 
+- X: 
 		- Matt
 		- Suchitra: 
 *Created two stories to showcase the visualizations created in Tableau.*
