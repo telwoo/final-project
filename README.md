@@ -98,8 +98,8 @@ The field `price` is the model target.
         - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
     - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
         - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
-        - One hot encoding was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
-        - 
+        - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
+    
 
 
 Suchitra:
