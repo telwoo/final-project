@@ -135,14 +135,14 @@ Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8
 				* Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
 				
 				
-	- Circle:	 	 
-		- Graeme: ![shape and head of initial data frame](Resources/df_init.png)
+- Circle:	 	 
+	- Graeme: ![shape and head of initial data frame](Resources/df_init.png)
 Fig. The shape and head of the initial data frame.
 
 ![shape and head of initial data frame](Resources/df_tt.png)
 Fig. Description of features.
 
-- Chauntel: The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium. There are two additional tables separating categorical features (i.e. clarity or cut) and numeric features (i.e. depth or carat). 
+	- Chauntel: The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium. There are two additional tables separating categorical features (i.e. clarity or cut) and numeric features (i.e. depth or carat). 
 		
 	![ERD_multiple_table](https://user-images.githubusercontent.com/106715923/199855105-f8da8e38-3c94-4df0-a127-33014e928bf6.png)
 		
