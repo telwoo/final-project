@@ -144,6 +144,7 @@ Fig. Description of features.
 
 
 	- Chauntel: 
+	
 	The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium. There are two additional tables separating categorical features (i.e. clarity or cut) and numeric features (i.e. depth or carat). 
 	
 	
