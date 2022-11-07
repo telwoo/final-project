@@ -109,30 +109,30 @@ Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8
 		**Explanation of Model Choice, including limitations and benefits**
 			- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
 
-	- Triangle: 
-		- Matt: For Triangle role database updates please refer to resouces and PGadmin folders
-		- Chauntel:  
-			- This role is responsible for transforming the mockup database created in Segment 1 into a full database that 				 		integrates into our current work, related to diamond pricing based on different features. The nine features we're utilizing 				(carat, cut, color, clarity, depth, table, x, y, z, price) is defined in Segment 1, under the Triangle role. 
-				- Disclaimers: 
-					- For all column category definitions, please refer to Segment 1, Triangle role briefing.
-					- Our main source of data was "Diamonds_Prices2022.csv."
-			- The database we decided to use was PGAdmin
-				- PGAdmin is simple to use and manipulate the needed data provided by our csv. 
-				- PGAdmin allows us to have a clean and clear interface which helps us in building the necessary queries.
-				- PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
-			- After we created a main database within PostgresSQL 11 (named "Diamonds_Price_Data"), we completed the following:
-				1. We performed this function: SELECT DISTINCT * for the following features: cut, clarity, color. This function allowed 				us to get the specific, non-numerical categories with those specified columns.
-					* We were able to determine that:
-						- Cut column has 5 categories
-						- Color column has 7 categories
-						- Clarity column has 8 categories 
-				2. Came to the conclusion that since cut had a higher impact on diamond price, and fewer category options, determined 					that cut would be the best choice for table comparisons. 
-					- Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
-				3. Created 5 tables, based on the cut of the diamond
-				4. Used full outer join to merge together two tables: fair and premium, and good and very good. 
-					* Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
-				5. Used connection string, SQLAlchemy to migrate our data
-					* Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
+- Triangle: 
+	- Matt: For Triangle role database updates please refer to resouces and PGadmin folders
+	- Chauntel:  
+		- This role is responsible for transforming the mockup database created in Segment 1 into a full database that 				 		integrates into our current work, related to diamond pricing based on different features. The nine features we're utilizing 				(carat, cut, color, clarity, depth, table, x, y, z, price) is defined in Segment 1, under the Triangle role. 
+			- Disclaimers: 
+				- For all column category definitions, please refer to Segment 1, Triangle role briefing.
+				- Our main source of data was "Diamonds_Prices2022.csv."
+		- The database we decided to use was PGAdmin
+			- PGAdmin is simple to use and manipulate the needed data provided by our csv. 
+			- PGAdmin allows us to have a clean and clear interface which helps us in building the necessary queries.
+			- PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
+		- After we created a main database within PostgresSQL 11 (named "Diamonds_Price_Data"), we completed the following:
+			1. We performed this function: SELECT DISTINCT * for the following features: cut, clarity, color. This function allowed 				us to get the specific, non-numerical categories with those specified columns.
+				* We were able to determine that:
+					- Cut column has 5 categories
+					- Color column has 7 categories
+					- Clarity column has 8 categories 
+			2. Came to the conclusion that since cut had a higher impact on diamond price, and fewer category options, determined 					that cut would be the best choice for table comparisons. 
+				- Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
+			3. Created 5 tables, based on the cut of the diamond
+			4. Used full outer join to merge together two tables: fair and premium, and good and very good. 
+				* Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
+			5. Used connection string, SQLAlchemy to migrate our data
+				* Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
 				
 				
 	- Circle:	 	 
