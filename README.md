@@ -92,22 +92,21 @@ The field `price` is the model target.
 Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244). 
 
 ### Roles
-Square:
-Graeme:
-- Description of Preliminary Data Preprocessing:
-        - Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
-    - Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
-        - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
-        - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
+	- Square:
+		- Graeme:
+			- Description of Preliminary Data Preprocessing:
+        			- Initially, as we conducted the preliminary data processing we recognized the data is originally formatted sufficiently.
+   			- Description of preliminary feature engineering and preliminary feature selection, including the team's decision-making process
+       				 - As a team we have aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. All of the following features in the dataset are well defined and are not dependent of each other.
+       				 - get_dummies was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
 
-Suchitra:
+		- Suchitra:
+			**Description of how data was split into training and testing sets**
+			- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
+			- Utilized StandardScaler() to scale the features prior to modelling.
 
-**Description of how data was split into training and testing sets**
-- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
-- Utilized StandardScaler() to scale the features prior to modelling.
-
-**Explanation of Model Choice, including limitations and benefits**
-- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
+			**Explanation of Model Choice, including limitations and benefits**
+				- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
 
 	- Triangle: 
 		- Matt: For Triangle role database updates please refer to resouces and PGadmin folders
