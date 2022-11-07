@@ -157,18 +157,18 @@ Fig. Description of features.
 
 
 - X: 
-- Matt:
-  - Below is a link to out Tableau Story, providing a brief glance into our dataset.
-  - https://public.tableau.com/views/Diamond_final_project/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+	- Matt:
+  		- Below is a link to out Tableau Story, providing a brief glance into our dataset.
+  		- https://public.tableau.com/views/Diamond_final_project/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
-- Suchitra: 
-   *Created two stories to showcase the visualizations created in Tableau.*
+	- Suchitra: 
+ 		  *Created two stories to showcase the visualizations created in Tableau.*
 
-   **Cut Breakdown by Dataset:**
-  - This visual showcases the cut breakdown by dataset. The aggregate result of the dataset showcases that jewlers priced more ideal cut diamonds during the year 2022.
+  		 **Cut Breakdown by Dataset:**
+  		- This visual showcases the cut breakdown by dataset. The aggregate result of the dataset showcases that jewlers priced more ideal cut diamonds during the year 2022.
 
-   **Quality of Diamond:**
-  - This visual showcases the quality of a diamond by comparing the cut vs. the average price. We are able to identify the quality by understanding from fairness of the diamond. There are 5 types of cuts and the average price gradually increases as we read from left to right.
+  		 **Quality of Diamond:**
+  		- This visual showcases the quality of a diamond by comparing the cut vs. the average price. We are able to identify the quality by understanding from fairness of the diamond. There are 5 types of cuts and the average price gradually increases as we read from left to right.
 
 
 
