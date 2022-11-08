@@ -180,7 +180,7 @@ Fig. Description of features.
 - Square: Chauntel 
 - Triangle: Suchitra
 - Circle: Matthew and Suchitra
-- X: Graeme
+- X: Graeme, Chauntel, Matthew, and Suchitra
 
 ## Segment 4 (Week 4)
 
