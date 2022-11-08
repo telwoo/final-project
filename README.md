@@ -177,10 +177,10 @@ Fig. Description of features.
 ## Segment 3 (Week 3)
 
 ### Roles
-- Square: Graeme
-- Triangle: Matt
-- Circle: Suchitra
-- X: Chauntel
+- Square: Chauntel 
+- Triangle: Suchitra
+- Circle: Matthew and Suchitra
+- X: Graeme
 
 ## Segment 4 (Week 4)
 
