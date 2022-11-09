@@ -27,14 +27,27 @@ Note: The descriptions and explanations required in all other project deliverabl
 (12 total commits per person)
 
 ## Machine Learning
+
 ### Description of data preprocessing
-### Description of feature engineering and the feature selection, including their decisionmaking process
+
+### Description of feature engineering and the feature selection, including their decision making process
+There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity and essentially remove relatively rare features. 
+- Although there are only 5 cut categories, one could bin together the two lowest frequency categories, GOOD (9.1%) and FAIR (3.0%).
+- Although there are only 7 color categories, one could bin together the two highest color lowest frequency categories I (10.1%) and J (5.2%).
+- Although there are only 8 clarity categories, one could bin together the two lowest frequency clarities, I1 (1.4%) and IF (3.3%), not with each other, but with their nearest clarity category. That it, bin I1 and SI2 (17.0%), and bin IF and VVS1 (6.8%). 
+
 ### Description of how data was split into training and testing sets
+
 ### Explanation of model choice, including limitations and benefits
+
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+
 ### Description of how they have trained the model thus far, and any additional training that will take place
+
 ### Description of current accuracy score
 Additionally, the model obviously addresses the question or problem the team is solving.
+
+
 ## Database
 ### N/A
 
