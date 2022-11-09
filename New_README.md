@@ -2,16 +2,16 @@
 
 ## Presentation
 
-- Selected topic
-- Reason why they selected their topic
-- Description of their source of data
-- Questions they hope to answer with the data
-- Description of the data exploration phase of the project
-- Description of the analysis phase of the project
-- Technologies, languages, tools, and algorithms used throughout the project
+### Selected topic
+### Reason why they selected their topic
+### Description of their source of data
+### Questions they hope to answer with the data
+### Description of the data exploration phase of the project
+### Description of the analysis phase of the project
+### Technologies, languages, tools, and algorithms used throughout the project
 Slides Presentations are drafted in Google Slides.
 
-## Github
+### Github
 Main branch should include:
 - All code necessary to perform exploratory analysis
 - Most code necessary to complete the machine learning portion of the project
@@ -24,7 +24,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 - Each team member has at least four commits for the duration of the third segment
 (12 total commits per person)
 
-## Machine Learning
+### Machine Learning
 - Description of data preprocessing
 - Description of feature engineering and the feature selection, including their decisionmaking process
 - Description of how data was split into training and testing sets
@@ -34,10 +34,10 @@ Note: The descriptions and explanations required in all other project deliverabl
 - Description of current accuracy score
 Additionally, the model obviously addresses the question or problem the team is solving.
 
-## Database
+### Database
 - N/A
 
-## Dashboard
+### Dashboard
 - Images from the initial analysis
 - Data (images or report) from the machine learning task
 - At least one interactive element
