@@ -45,10 +45,14 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 
 ### Description of data preprocessing
 - There are no missing values to address.
-- There are zeros in x, y, and z, which can be considered missing numbers. All y zeros have x zeros, and all x zeros have z zeros.
+- There are zeros in x, y, and z, which can be considered missing numbers (no diamonds have a zero length, width, or depth). All y zeros have x zeros, and all x zeros have z zeros.
     - All rows (8 rows) with x zeros were removed.
     - All rows with non-zero x and y values, but zero z values (12 rows) had z values calculated: `z = (depth / 100) * (x + y) / 2`.
-- For modelling, the categorical variables need to be converted to numerical variables. Here we used the get_dummies() function, which replaces the original categorical column with as many new numerical columns as there were categories. For example, `cut` has 
+- Feature selection by binning occurs at this step (see details below).
+- For modelling, the categorical variables need to be converted to numerical variables. Here we used the get_dummies() function, which replaces the original categorical column with as many new numerical columns as there were categories. 
+    - For example, `cut` has five categories, Fair, Good, Very Good, Premium, and Ideal. The column `cut` is removed, and five new columns are added: `cut_Fair`, `cut_Good`, `cut_Very Good`, `cut_Premium`, and `cut_Ideal`. If in row `i` the original value of `cut` was Good, then in row `i` new column `cut_Good` is assigned a value of 1, and the other columns are assigned a value of 0. 
+    - The categorical columns `color` and `clarity` are treated likewise.
+    - In this way, the three original categorical columns are replaced by 20 new numerical columns, increasing the model feature count by 17.
 
 ### Description of feature engineering and the feature selection, including their decision making process
 There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity and essentially remove relatively rare features. 
