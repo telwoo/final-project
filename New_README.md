@@ -31,7 +31,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 ### Provenance and schema of data 
 Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. (Round-cut diamonds represent about 72% of all diamonds listed on DiamondSE.info.) Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
 - `carat` ranges from 0.2 to 5.01. 1 carat = 200 mg.
-- `cut` grade has five categories: Fair, Good, V.Good, Premium, and Ideal.
+- `cut` grade has five categories: Fair, Good, Very Good, Premium, and Ideal.
 - `color` has seven categories: D/E/F/G/H/I/J.
 - `clarity` has eight categories: IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1. There are no flawless (FL) diamonds in this dataset.
 - `depth` is the table depth which ranges from 0% to 90%.
@@ -44,12 +44,17 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 - `price` is the price of the diamond in $USD set by the jeweler.
 
 ### Description of data preprocessing
+- There are no missing values to address.
+- There are zeros in x, y, and z, which can be considered missing numbers. All y zeros have x zeros, and all x zeros have z zeros.
+    - All rows (8 rows) with x zeros were removed.
+    - All rows with non-zero x and y values, but zero z values (12 rows) had z values calculated: `z = (depth / 100) * (x + y) / 2`.
+- For modelling, the categorical variables need to be converted to numerical variables. Here we used the get_dummies() function, which replaces the original categorical column with as many new numerical columns as there were categories. For example, `cut` has 
 
 ### Description of feature engineering and the feature selection, including their decision making process
 There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity and essentially remove relatively rare features. 
 - Although there are only 5 cut categories, one could bin together the two lowest frequency categories, GOOD (9.1%) and FAIR (3.0%).
 - Although there are only 7 color categories, one could bin together the two highest color lowest frequency categories I (10.1%) and J (5.2%).
-- Although there are only 8 clarity categories, one could bin together the two lowest frequency clarities, I1 (1.4%) and IF (3.3%), not with each other, but with their nearest clarity category. That it, bin I1 and SI2 (17.0%), and bin IF and VVS1 (6.8%). 
+- Although there are only 8 clarity categories, one could bin together the two lowest frequency clarities, I1 (1.4%) and IF (3.3%), not with each other, but with their nearest clarity category. That is, bin I1 and SI2 (17.0%), and bin IF and VVS1 (6.8%). 
 
 ### Description of how data was split into training and testing sets
 
