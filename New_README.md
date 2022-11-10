@@ -43,6 +43,8 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 - `z` is the depth of the diamond in mm.
 - `price` is the price of the diamond in $USD set by the jeweler.
 
+### Exploratory data analysis
+
 ### Description of data preprocessing
 - There are no missing values to address.
 - There are zeros in x, y, and z, which can be considered missing numbers (no diamonds have a zero length, width, or depth). All y zeros have x zeros, and all x zeros have z zeros.
@@ -55,14 +57,14 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
     - In this way, the three original categorical columns are replaced by 20 new numerical columns, increasing the model feature count by 17.
 
 ### Description of feature engineering and the feature selection, including their decision making process
-There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity and essentially remove relatively rare features. 
+There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity in the model, removing relatively rare features by combining them together into a single category. 
 - Although there are only 5 cut categories, one could bin together the two lowest frequency categories, GOOD (9.1%) and FAIR (3.0%).
 - Although there are only 7 color categories, one could bin together the two highest color lowest frequency categories I (10.1%) and J (5.2%).
 - Although there are only 8 clarity categories, one could bin together the two lowest frequency clarities, I1 (1.4%) and IF (3.3%), not with each other, but with their nearest clarity category. That is, bin I1 and SI2 (17.0%), and bin IF and VVS1 (6.8%). 
 
 ### Description of how data was split into training and testing sets
 - **TODO**
-- The data was split into training and testing sets. Explain tr/te purpose. Explain train_test_split(). Need to use that argument that accounts for unbalanced value distribution in features.
+- The data was split into training and testing sets. Explain tr/te purpose. Explain train_test_split(). Need to use that argument that accounts for unbalanced value distribution in features. **Wrong** Stratify is for imbalance in the target class(es).
 - Explain StandardScaler().
 
 ### Explanation of model choice, including limitations and benefits
