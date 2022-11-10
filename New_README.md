@@ -43,7 +43,9 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 - `z` is the depth of the diamond in mm.
 - `price` is the price of the diamond in $USD set by the jeweler.
 
-### Exploratory data analysis
+### Exploratory data analysis (EDA)
+
+All of the EDA was done via the pandas_profiling ProfileReport module. An interactive [report](Resources/DiamondSE_Report.html) provided an efficient and thorough means to explore the data set.
 
 ### Description of data preprocessing
 - There are no missing values to address.
