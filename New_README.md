@@ -53,6 +53,8 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
     - For example, `cut` has five categories, Fair, Good, Very Good, Premium, and Ideal. The column `cut` is removed, and five new columns are added: `cut_Fair`, `cut_Good`, `cut_Very Good`, `cut_Premium`, and `cut_Ideal`. If in row `i` the original value of `cut` was Good, then in row `i` new column `cut_Good` is assigned a value of 1, and the other columns are assigned a value of 0. 
     - The categorical columns `color` and `clarity` are treated likewise.
     - In this way, the three original categorical columns are replaced by 20 new numerical columns, increasing the model feature count by 17.
+- The data was split into training and testing sets. Explain tr/te purpose. Explain train_test_split(). Need to use that argument that accounts for unbalanced value distribution in features.
+- Explain StandardScaler().
 
 ### Description of feature engineering and the feature selection, including their decision making process
 There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity and essentially remove relatively rare features. 
