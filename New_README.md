@@ -45,7 +45,9 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 
 ### Exploratory data analysis (EDA)
 
-All of the EDA was done via the pandas_profiling ProfileReport module. An interactive [report](Resources/DiamondSE_Report.html) (exported from EDA.ipynb) provided an efficient and thorough means to explore the data set.
+All of the EDA was done via the pandas_profiling ProfileReport module. An interactive report was generated in [EDA.ipynb](./EDA.ipynb) which provided an efficient and thorough means to explore the data set.
+
+Bullet points of EDA highlights
 
 TODO a few images?
 
