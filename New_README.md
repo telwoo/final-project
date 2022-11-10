@@ -29,13 +29,13 @@ Note: The descriptions and explanations required in all other project deliverabl
 ## Machine Learning
 
 ### Provenance and schema of data 
-Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
-- `carat` ranges from 0.2 to 30.0.
-- `cut` grade has three categories: Good, V.Good, and Ideal.
-- `color` has nine categories: D/E/F/G/H/I/J/K/L.
-- `clarity` has ten categories: FL/IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1/I2.
-- `depth` is the table depth which ranges from 0% to 90%. `depth = z / mean(x, y)`
-- `table` is the table width which ranges from 0% to 90%. This feature should be renamed `table_width`.
+Provisional data was obtained from the kaggle dataset [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices?select=Diamonds+Prices2022.csv) created by Ms. Nancy Al Aswad, which was scraped from the [Loose diamonds search engine at DiamondSearchEngine](https://www.diamondse.info/diamond-prices.asp) on July 9, 2022. The dataset contains 53,943 records of round-cut diamonds. (Round-cut diamonds represent about 72% of all diamonds listed on DiamondSE.info.) Each record has nine features (`carat`, `cut`, `color`, `clarity`, `depth`, `table`, `x`, `y`, `z`) and one target (`price`). 
+- `carat` ranges from 0.2 to 5.01. 1 carat = 200 mg.
+- `cut` grade has five categories: Fair, Good, V.Good, Premium, and Ideal.
+- `color` has seven categories: D/E/F/G/H/I/J.
+- `clarity` has eight categories: IF/VVS1/VVS2/VS1/VS2/SI1/SI2/I1. There are no flawless (FL) diamonds in this dataset.
+- `depth` is the table depth which ranges from 0% to 90%.
+- `table` is the table width which ranges from 0% to 90%.
 - Regarding the 'depth' and 'table' features, 
 please see [Understanding Diamond Table and Depth](https://www.brilliance.com/education/diamonds/depth-table?creative=617868835387&keyword=%2Bwhat%20%2Bdiamond%20%2Btable&matchtype=b&network=g&device=c&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSP2pOhrNc4qaEWmpQvkH5PlLWDC-Z2_WX98YcHipvfzp_CEodbSIN4xoCM88QAvD_BwE).
 - `x` is the length of the diamond in mm.
