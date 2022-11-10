@@ -75,12 +75,20 @@ There are several feature selections that can be made by binning. The purpose of
 After model training, it may be the case that some features do not contribute meaningfully to the model (see below as to how to assess significance of fit), and removal of those features may improve model performance.
 
 ### Description of how data was split into training and testing sets
+In order to assess the performance of a machine learning model, all the data is split into a training set and a testing set. The two sets are mutually exclusive. The model is then trained with the training set data. The important consideration is the accuracy of predictions obtained when the trained model is exposed to unseen test data. Why?
 
+One can choose a very flexible model that when trained fit the training data very well. In some cases one could choose a "perfect model" that passes through every training data point! However, when exposed to unseen test data, this "perfect model" does poorly at predicting unseen test data. This condition is known as overfitting.
 
+In the end, we want a model that can most accurately predict new or unseen data.
 
+In practice, experience has shown that the best results can be obtained by having the size of the training data set be larger than that of the test data set. Here we used the sklearn.model_selection train_test_split() function to split the data as 75% training and 25% testing.
 
-- The data was split into training and testing sets. Explain tr/te purpose. Explain train_test_split(). Need to use that argument that accounts for unbalanced value distribution in features. **Wrong** Stratify is for imbalance in the target class(es).
-- The data is purposely not scaled for the ordinary least squares regression modelling. 
+### Data Scaling
+The data in this study was not scaled for the ordinary least squares multivariate regression model.
+
+For some machine learning models, data scaling improves model training and subsequent predictive performance.
+
+This is not the case for ordinary least squares multivariate regression modelling. Moreover, by not scaling the data, the feature coefficients of the trained model can be used to interpret the trained model fit.
 
 ### Explanation of model choice, including limitations and benefits
 
