@@ -47,6 +47,8 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 
 All of the EDA was done via the pandas_profiling ProfileReport module. An interactive [report](Resources/DiamondSE_Report.html) (exported from EDA.ipynb) provided an efficient and thorough means to explore the data set.
 
+TODO a few images?
+
 ### Description of data preprocessing
 - There are no missing values to address.
 - There are zeros in x, y, and z, which can be considered missing numbers (no diamonds have a zero length, width, or depth). All y zeros have x zeros, and all x zeros have z zeros.
@@ -63,19 +65,28 @@ All of the EDA was done via the pandas_profiling ProfileReport module. An intera
     - `clarity_IF`, `clarity_VVS1`, `clarity_VVS2`, `clarity_VS1`, `clarity_VS2`, `clarity_SI1`, `clarity_SI2`, `clarity_I1`
 
 ### Description of feature engineering and the feature selection, including their decision making process
+Initially there is no feature selection. All features (dummy variables are considered features) are included in the model, as there is no reason to exclude any feature.
+
 There are several feature selections that can be made by binning. The purpose of binning is to reduce feature complexity in the model, removing relatively rare features by combining them together into a single category. 
 - Although there are only 5 cut categories, one could bin together the two lowest frequency categories, GOOD (9.1%) and FAIR (3.0%).
 - Although there are only 7 color categories, one could bin together the two highest color lowest frequency categories I (10.1%) and J (5.2%).
-- Although there are only 8 clarity categories, one could bin together the two lowest frequency clarities, I1 (1.4%) and IF (3.3%), not with each other, but with their nearest clarity category. That is, bin I1 and SI2 (17.0%), and bin IF and VVS1 (6.8%). 
+- Although there are only 8 clarity categories, one could bin together the two lowest frequency clarities, I1 (1.4%) and IF (3.3%), not with each other, but with their nearest clarity category. That is, bin I1 and SI2 (17.0%), and bin IF and VVS1 (6.8%).
+
+After model training, it may be the case that some features do not contribute meaningfully to the model (see below as to how to assess significance of fit), and removal of those features may improve model performance.
 
 ### Description of how data was split into training and testing sets
-- **TODO**
+
+
+
+
 - The data was split into training and testing sets. Explain tr/te purpose. Explain train_test_split(). Need to use that argument that accounts for unbalanced value distribution in features. **Wrong** Stratify is for imbalance in the target class(es).
 - The data is purposely not scaled for the ordinary least squares regression modelling. 
 
 ### Explanation of model choice, including limitations and benefits
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+
+The choice of model did not change from last week.
 
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
