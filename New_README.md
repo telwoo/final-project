@@ -45,7 +45,7 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 
 ### Exploratory data analysis (EDA)
 
-All of the EDA was done via the pandas_profiling ProfileReport module. An interactive [report](Resources/DiamondSE_Report.html) provided an efficient and thorough means to explore the data set.
+All of the EDA was done via the pandas_profiling ProfileReport module. An interactive [report](Resources/DiamondSE_Report.html) (exported from EDA.ipynb) provided an efficient and thorough means to explore the data set.
 
 ### Description of data preprocessing
 - There are no missing values to address.
@@ -80,6 +80,15 @@ There are several feature selections that can be made by binning. The purpose of
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
 ### Description of current accuracy score
+- Significance of training coefficient estimates. 
+![OLS1.1](Resources/OLS1.1.png)
+![OLS1.2](Resources/OLS1.2.png)
+![OLS1.3](Resources/OLS1.3.png)
+
+- Accuracy of model
+
+![lm train/test R-squared](Resources/lm_R-squared1.png)
+
 Additionally, the model obviously addresses the question or problem the team is solving.
 
 
