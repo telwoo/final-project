@@ -1,7 +1,7 @@
 # Final Project - Diamonds 💎 are forever... but is their value? 🧐
 
 ## Presentation
-The presentation will outline a synopsis of what our overall project signifies.
+<sup> The presentation will outline a synopsis of what our overall project signifies. </sup>
 
 ### Selected topic
   - Analyzing the measurements and classifications of diamonds 
