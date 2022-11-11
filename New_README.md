@@ -140,23 +140,34 @@ This is not the case for ordinary least squares multivariate regression modellin
 
 ### Explanation of model choice, including limitations and benefits
 
+The data was modelled using ordinary least-squares multivariate linear regression. The model was chosen, because the data presents a supervised learning problem (diamond price is the model target), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast. 
+
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
 The choice of model did not change from last week.
 
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
+The model was trained (with the training data) on all 26 features described above with diamond `price` as the target. Two linear regression implementations were used, because each offers features that the other does not.
+- The statsmodels.api OLS() function was used as it allows easy calculation of p-values for training feature coefficients.
+- The sklearn.linear_model LinearRegression() function was used as it allows easy calculation of the testing $R^2$ quantity.
+Both implementations gave the same interpretations of the data.
+
 ### Description of current accuracy score
-- Significance of training coefficient estimates. 
+There are two important considerations from the modelling. Do the features used contribute significantly to the model? What is the model accuracy?
+
+#### *Significance of training coefficient estimates.*
+Each training feature coefficient has an associated p-value. A p-value above 0.05 means the null hypothesis (the feature does not significantly contribute to the model) is not rejected.
+It can be seen that every feature significantly contributes to the model except for `y` and `color_I`.
+
 ![OLS1.1](Resources/OLS1.1.png)
 ![OLS1.2](Resources/OLS1.2.png)
 ![OLS1.3](Resources/OLS1.3.png)
 
-- Accuracy of model
+#### *Accuracy of model.*
+The $R^2$ quantity is a measure of the accuracy of the model. Here the training $R^2$ is 0.920 and the testing $R^2$ is 0.921. Because the testing and training values are close, this indicated that the model did not overfit the data. One way to express the meaning of $R^2$ is that the model explains 92.1% of the variance in the testing data.
 
 ![lm train/test R-squared](Resources/lm_R-squared1.png)
-
-Additionally, the model obviously addresses the question or problem the team is solving.
 
 
 ## Database
