@@ -5,9 +5,17 @@
 ### Selected topic
 ### Reason why they selected their topic
   -  Provided insight on how diamond modifications affect pricing
-  -  
+  -  Intended audience:
+    - Jewelry appraisers (informed consumers who want to make a purchase)
+    - Raw Supplier (Jewelers)
+    - Distributors (Mining company)
+    - Consumer
 
 ### Description of their source of data
+  - We chose this topic because it gave us a greater idea of changes for diamonds
+  - Diamonds are a very good resource
+  - Round cut diamonds are the most heavily requested diamond cut
+
 ### Questions they hope to answer with the data
   - Why are diamonds so expensive?
   - What is the purpose of having so many features to justify the price of a diamond?
@@ -28,7 +36,7 @@
   - All the features in the dataset are well delineated and independant of each other. As a team, we agree to use `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,`x`, `y`, and `z` as model features.
 
 ### Technologies, languages, tools, and algorithms used throughout the project
-  - Languages used: Python/Jupyter Notebook
+  - Languages used: Python/Jupyter Notebook/PostgresSQL
   - Algorithm used: sklearn.model_selection and Ordinary Leasing Square model to scale the features and split/train/import data
 
 ### Slides Presentations are drafted in Google Slides.
