@@ -3,6 +3,8 @@
 ## Presentation
 
 ### Selected topic
+  - Analyzing the measurements and classifications of diamonds 
+
 ### Reason why they selected their topic
   -  Provided insight on how diamond modifications affect pricing
   -  Intended audience:
