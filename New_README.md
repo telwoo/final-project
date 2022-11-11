@@ -36,13 +36,13 @@
   - All of the following features in the dataset are well defined and are not dependent of each other. - get_dummies function was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
 
 ### Description of the analysis phase of the project
-  **Description of Data Preprocession** 
   - The data is well formatted. 
   - It is recommended that the field 'depth' is renamed 'table_depth' for clarity.
   - It is recommended that the field 'table' is renamed 'table_width' for clarity.
-
-  **Description of feature engineering and the feature selection, including the team's decision-making process** 
   - All the features in the dataset are well delineated and independant of each other. As a team, we agree to use `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,`x`, `y`, and `z` as model features.
+		- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
+		- Utilized Oridnary Least Square to scale the features prior to modelling.
+		- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
 
 ### Technologies, languages, tools, and algorithms used throughout the project
   - Languages used: Python/Jupyter Notebook/PostgresSQL
