@@ -20,11 +20,12 @@ Diamonds have a variety of measurable characteristics that contribute to the ove
 
 Through the course of this project we had to merge 4 seperate GitHub accounts. Chauntel created the repository to host the code for the final project. We aligned on naming the repository final-project. After Chauntel created the repository, she invited Graeme, Suchitra, and Matthew to collaborate. In total we had to have 17 branches and 4 commits per branch (per team member). Through this process we learned to: merge on the master branch, perform quality assurance, test the code, and navigate through merge conflicts as a team. 
 
-### Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)
+### Communication
+*To ensure effective communication, we aligned on availabilities early on and created a communication plan.*
 ![image](https://user-images.githubusercontent.com/102767530/201246602-55388ca8-be5f-42ab-b50c-21e5d0e576f1.png)
 
 
-### Link to Google Slides draft presentation
+### Presentation Slide Deck
 ## [Link to Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_287)
 
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted. Individual Branches
