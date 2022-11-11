@@ -135,7 +135,7 @@ Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8
 				* Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
 				
 				
-- Circle:	 	 
+- Circle :	 	 
 	- Graeme: ![shape and head of initial data frame](Resources/df_init.png)
 Fig. The shape and head of the initial data frame.
 
