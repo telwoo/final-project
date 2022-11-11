@@ -171,10 +171,47 @@ The $R^2$ quantity is a measure of the accuracy of the model. Here the training 
 
 
 ## Database
-### something
-something else
+The database we decided to use was PGAdmin PGAdmin is simple to use and manipulate the needed data provided by our csv. PGAdmin allows us to have a clean and clear interface which helps us in building the necessary queries. PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
+
+### Database stores static data for use during the project
+### Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+### Database includes at least two tables (or collections, if using MongoDB)
+### Database includes at least one join using the database language (not including any joins in Pandas)
+### Database includes at least one connection string (using SQLAlchemy or PyMongo)
+### Note: If you use a SQL database, you must provide your ERD with relationships.
+
+- After we created a main database within PostgresSQL 11 (named "Diamonds_Price_Data"), we completed the following:
+  1. We performed this function: SELECT DISTINCT * for the following features: cut, clarity, color. This function allowed 				us to get the specific, non-numerical categories with those specified columns.
+    * We were able to determine that:
+      - Cut column has 5 categories
+      - Color column has 7 categories
+      - Clarity column has 8 categories 
+  2. Came to the conclusion that since cut had a higher impact on diamond price, and fewer category options, determined 					that cut would be the best choice for table comparisons. 
+    - Reminder, cut choices are: Fair, Good, Very Good, Ideal, and Premium
+  3. Created 5 tables, based on the cut of the diamond
+  4. Used full outer join to merge together two tables: fair and premium, and good and very good. 
+    * Decided to use Full Outer Join, because it would return all matching records from both tables whether the 						other tables' values completely match or not. Even though the categories have different values within the 						different features, the columns are the same (making it easier to merge). 
+  5. Used connection string, SQLAlchemy to migrate our data
+    * Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
+
+- Utilizing the online tool from www.quickdatabasediagrams.com for building an ER diagram, we were able to produce a schema for our single table database and used PGadmin within a postgresql database to store the data locally.
+- Starting with two separate tables based on diamond numeric values (ie. carat, dimensions, price, etc) and characteristic values (ie. cut quality, color designation, and clarity designation), these tables were join, or combined, into a single full diamond data table.
+- The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium.
+  
+  ![ERD_multiple_table](https://user-images.githubusercontent.com/106715923/199855105-f8da8e38-3c94-4df0-a127-33014e928bf6.png)
+  
+  <sup> Fig. This image is of the multiple tables created. Note that the primary key used is ID. </sup>
+  
+  ![ERD_showing_table_join](https://user-images.githubusercontent.com/106715923/199855170-4ccb2897-3f1c-48c8-bcf2-8282e8cae6d9.png)
+  
+  <sup> Fig. This image showcases the tables created, utilizing the outer full join </sup>
+
+- Taking advantage of SQLAlchemy the full table "" is pulled into the machine learning script.
 
 ## Dashboard
 ### Images from the initial analysis
 ### Data (images or report) from the machine learning task
 ### At least one interactive element
+  ![image_name](/Resources/dashboard.png)
+  <sup>The image above is of our dashboard which can be found at the following link. The dashboard contains interactive tables built from the original data pre-analysis, as well as the Training and Testing R-squared figures and the coeficient table from the ML model.</sup>
+  NOTE: there appears to be an issue in Tableau Public that the saves are not updating on the website. Will continue to attempt to get save to work.
