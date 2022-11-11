@@ -4,19 +4,26 @@
 
 ### Selected topic
   - Analyzing the measurements and classifications of diamonds 
-
-### Reason why they selected their topic
   -  Provided insight on how diamond modifications affect pricing
   -  Intended audience:
     - Jewelry appraisers (informed consumers who want to make a purchase)
     - Raw Supplier (Jewelers)
     - Distributors (Mining company)
     - Consumer
-
-### Description of their source of data
+   
+### Reason why they selected their topic
   - We chose this topic because it gave us a greater idea of changes for diamonds
   - Diamonds are a very good resource
   - Round cut diamonds are the most heavily requested diamond cut
+
+### Description of their source of data
+  - https://www.diamondse.info/diamond-prices.asp
+  - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices 
+  - Jupyter notebook
+  - Google Applications
+    - Docs 
+    - Jam Board 
+    - Meet
 
 ### Questions they hope to answer with the data
   - Why are diamonds so expensive?
