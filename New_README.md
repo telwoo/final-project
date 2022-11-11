@@ -1,30 +1,28 @@
 # Final Project - Diamonds 💎 are forever... but is their value? 🧐
 
 ## Presentation
-<sup> The presentation will outline a synopsis of what our overall project signifies. </sup>
+The presentation will outline a synopsis of what our overall project signifies. Our reasoning for topic selection, source of data, questions to answer, and data exploration/analysis can be explained below. 
 
 ### Selected topic
   - Analyzing the measurements and classifications of diamonds 
   -  Provided insight on how diamond modifications affect pricing
   -  Intended audience:
-    - Jewelry appraisers (informed consumers who want to make a purchase)
-    - Raw Supplier (Jewelers)
-    - Distributors (Mining company)
-    - Consumer
-   
+    - Jewelry appraisers (Informs consumers who want to make a purchase)
+    - Raw Supplier (Mining Company)
+    - Distributors (Jewelers)
+    - Consumer (YOU!)
+  
 ### Reason why they selected their topic
   - We chose this topic because it gave us a greater idea of changes for diamonds
-  - Diamonds are a very good resource
+  - Diamonds are a very good resource, and is highly demanded
   - Round cut diamonds are the most heavily requested diamond cut
 
 ### Description of their source of data
   - https://www.diamondse.info/diamond-prices.asp
-  - https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices 
-  - Jupyter notebook
-  - Google Applications
-    - Docs 
-    - Jam Board 
-    - Meet
+  	-  Generation engine that allows for diamond price comparisons. You can update different features that you want (say a heart shaped, 5 carat diamond with a D color grade, the site will populate jeweler/price/etc for you)  
+  -  https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices 
+  	-  Diamond price CVS dataset used within our project for determine needed criteria
+  	-  Kaggle site was the best source that had the most features and data outlined for diamonds (round cut) within a specific time frame that we were looking for. 
 
 ### Questions they hope to answer with the data
   - Why are diamonds so expensive?
@@ -42,12 +40,12 @@
   - It is recommended that the field 'table' is renamed 'table_width' for clarity.
   - All the features in the dataset are well delineated and independant of each other. As a team, we agree to use `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,`x`, `y`, and `z` as model features.
 		- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
-		- Utilized Oridnary Least Square to scale the features prior to modelling.
+		- Utilized Oridnary Least Square to scale the features prior to modeling.
 		- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
 
 ### Technologies, languages, tools, and algorithms used throughout the project
   - Languages used: Python/Jupyter Notebook/PostgresSQL
-  - Algorithm used: sklearn.model_selection and Ordinary Leasing Square model to scale the features and split/train/import data
+  - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
 
 ### Slides Presentations are drafted in Google Slides.
 Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244).
