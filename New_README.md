@@ -18,9 +18,9 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Round cut diamonds are the most heavily requested diamond cut
 
 ### Description of their source of data
-  - Link to [diamondse] (https://www.diamondse.info/diamond-prices.asp)
+  - Link to [diamondse](https://www.diamondse.info/diamond-prices.asp)
   	-  Generation engine that allows for diamond price comparisons. You can update different features that you want (say a heart shaped, 5 carat diamond with a D color grade, the site will populate jeweler/price/etc for you)  
-  - Link to [Kaggle] (https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices)  
+  - Link to [Kaggle](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices)
 	-  Diamond price CVS dataset used within our project for determine needed criteria
 	-  Kaggle site was the best source that had the most features and data outlined for diamonds (round cut) within a specific time frame that we were looking for. 
 
