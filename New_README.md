@@ -2,15 +2,54 @@
 
 ## Presentation
 
-### Selected topic
-### Reason why they selected their topic
-### Description of their source of data
-### Questions they hope to answer with the data
-### Description of the data exploration phase of the project
-### Description of the analysis phase of the project
-### Technologies, languages, tools, and algorithms used throughout the project
-### Slides Presentations are drafted in Google Slides.
+The presentation will outline a synopsis of what our overall project signifies. Our reasoning for topic selection, source of data, questions to answer, and data exploration/analysis can be explained below. 
 
+### Selected topic
+  - Analyzing the measurements and classifications of diamonds 
+  -  Provided insight on how diamond modifications affect pricing
+  -  Intended audience:
+    - Jewelry appraisers (Informs consumers who want to make a purchase)
+    - Raw Supplier (Mining Company)
+    - Distributors (Jewelers)
+    - Consumer (YOU!)
+  
+### Reason why they selected their topic
+  - We chose this topic because it gave us a greater idea of changes for diamonds
+  - Diamonds are a very good resource, and is highly demanded
+  - Round cut diamonds are the most heavily requested diamond cut
+
+### Description of their source of data
+  - Link to [diamondse](https://www.diamondse.info/diamond-prices.asp)
+  	-  Generation engine that allows for diamond price comparisons. You can update different features that you want (say a heart shaped, 5 carat diamond with a D color grade, the site will populate jeweler/price/etc for you)  
+  - Link to [Kaggle](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices)
+	-  Diamond price CVS dataset used within our project for determine needed criteria
+	-  Kaggle site was the best source that had the most features and data outlined for diamonds (round cut) within a specific time frame that we were looking for. 
+
+### Questions they hope to answer with the data
+  - Why are diamonds so expensive?
+  - What is the purpose of having so many features to justify the price of a diamond?
+  - How does the measurement and classifications of a diamond impact its numerical value?
+
+### Description of the data exploration phase of the project
+  - Dataset obtained from kaggle was sufficient, as each column within the dataset was crucial to our overall process
+  - As a team, we aligned on using the following as model features: carat, cut, color, clarity, table_depth, table_width, x, y, and z. 
+  - All of the following features in the dataset are well defined and are not dependent of each other. - get_dummies function was used to convert categorical features (cut, color, and clarity) to numerical features for model input.
+
+### Description of the analysis phase of the project
+  - The data is well formatted. 
+  - It is recommended that the field 'depth' is renamed 'table_depth' for clarity.
+  - It is recommended that the field 'table' is renamed 'table_width' for clarity.
+  - All the features in the dataset are well delineated and independant of each other. As a team, we agree to use `carat`, `cut`, `color`, `clarity`, `table_depth`, `table_width`,`x`, `y`, and `z` as model features.
+		- We utilized the sklearn.model_selection library to import then split, train and test the data. This allowed 75% of our data to be training data and 25% to be test data.
+		- Utilized Oridnary Least Square to scale the features prior to modeling.
+		- Linear regression is a classic method to model our dataset, and it is more understandable to our intended audience and less expensive computationally than other modeling methods.
+
+### Technologies, languages, tools, and algorithms used throughout the project
+  - Languages used: Python/Jupyter Notebook/PostgresSQL
+  - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
+
+### Slides Presentations are drafted in Google Slides.
+Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244).
 
 ## Github
 Main branch should include:

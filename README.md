@@ -178,6 +178,15 @@ Fig. Description of features.
 
 ### Roles
 - Square: Chauntel 
+
+	- Updated/edited aspects of the READMe (wooten/segment3 branch) to include the following related to this role:
+		- Created .gitignore and requirements.txt files and pushed to main branch
+			- PR has been completed and transferred to main branch, from wooten/segment 3 branch
+		- Checked all code necessary to perform exploratory analysis (see Circle role)
+		- Reviewed code necessary to complete the machine learning portion of the project (see Circle role)
+		- Provided link of the Google Slides presentation (see Segment 2-Week 2 and below Triangle role)
+		- Checked to make sure all code in the main branch is production ready
+		
 - Triangle: Suchitra
 - Circle: Matthew and Suchitra
 - X: Graeme, Chauntel, Matthew, and Suchitra
