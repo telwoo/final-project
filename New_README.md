@@ -48,6 +48,9 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 All of the EDA was done via the pandas_profiling ProfileReport module. An interactive report was generated in [EDA.ipynb](./EDA.ipynb) which provided an efficient and thorough means to explore the data set.
 
 Bullet points of EDA highlights
+- price v carats
+
+- some round cut diamonds are ovals (x, y) 
 
 TODO a few images?
 
