@@ -36,7 +36,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 ### Description of current accuracy score
 Additionally, the model obviously addresses the question or problem the team is solving.
 ## Database
-### N/A
+### something
 
 ## Dashboard
 ### Images from the initial analysis
