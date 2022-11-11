@@ -1,6 +1,7 @@
 # Final Project - Diamonds 💎 are forever... but is their value? 🧐
 
 ## Presentation
+
 The presentation will outline a synopsis of what our overall project signifies. Our reasoning for topic selection, source of data, questions to answer, and data exploration/analysis can be explained below. 
 
 ### Selected topic

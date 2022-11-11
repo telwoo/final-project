@@ -178,6 +178,7 @@ Fig. Description of features.
 
 ### Roles
 - Square: Chauntel 
+
 	- Updated/edited aspects of the READMe (wooten/segment3 branch) to include the following related to this role:
 		- Created .gitignore and requirements.txt files and pushed to main branch
 			- PR has been completed and transferred to main branch, from wooten/segment 3 branch
