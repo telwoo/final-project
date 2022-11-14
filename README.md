@@ -213,5 +213,4 @@ The database we decided to use was PGAdmin PGAdmin is simple to use and manipula
 ### Data (images or report) from the machine learning task
 ### At least one interactive element
   ![image_name](/Resources/dashboard.png)
-  <sup>The image above is of our dashboard which can be found at the following link. The dashboard contains interactive tables built from the original data pre-analysis, as well as the Training and Testing R-squared figures and the coeficient table from the ML model.</sup>
-  NOTE: there appears to be an issue in Tableau Public that the saves are not updating on the website. Will continue to attempt to get save to work.
+  <sup>The image above is of our dashboard which can be found at the following [link](https://public.tableau.com/views/Diamonds_price_analysis/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link). The dashboard contains interactive tables built from the original data pre-analysis, as well as the Training and Testing R-squared figures and the coeficient table from the ML model. The tables can be adjusted through select "Cut", "Carat", or "Price".</sup>
