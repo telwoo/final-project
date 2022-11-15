@@ -1,5 +1,5 @@
 -- CREATE DATABASE "Diamonds_Price_data"
--- OWNER = postgres
+-- OWNER = postgres or graemet
 -- ENCODING = 'UTF8'
 
 
@@ -18,9 +18,4 @@ CREATE TABLE Diamonds_Prices2022 (
      z NUMERIC NOT NULL
 );
 
--- import CSV data file "Diamonds Prices2022.csv"
--- delimiter ","
--- encoding "UTF8"
--- header "yes"
--- OID "no"
 
