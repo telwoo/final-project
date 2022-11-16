@@ -61,7 +61,7 @@ The presentation will outline a synopsis of what our overall project signifies. 
 - Drop unrelated features so that zeros are removed
 
 ### Anything team would have done differently
--info of what was done differently
+- An issue we ran into concerned the use of PostgresSQL database through PGadmin for our project, involving the fact that the database was local. To correct this on any future project we would want to upgrade the database to AWS, which would open the database up to better communication options.
 
 ### Slides Presentations are drafted in Google Slides.
 Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244).
