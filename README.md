@@ -24,9 +24,9 @@ The presentation will outline a synopsis of what our overall project signifies. 
 
 ### Description of their source of data
   - Link to [DiamondSE.info](https://www.diamondse.info/diamond-prices.asp)
-  	-  Generation engine that allows for diamond price comparisons. You can update different features that you want (say a heart shaped, 5 carat diamond with a D color grade, the site will populate jeweler/price/etc for you)  
+  	-  Generation engine that allows for diamond price comparisons. You can update different features that you want (say a heart shaped, 5 carat diamond with a D color grade, the site will populate jeweler/price/etc. for you)  
   - Link to [Kaggle](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices)
-	-  Diamond price CVS dataset used within our project for determine needed criteria
+	-  Diamond price CVS dataset was used within our project to determine needed criteria
 	-  Kaggle site was the best source that had the most features and data outlined for diamonds (round cut) within a specific time frame that we were looking for. 
 
 ### Questions they hope to answer with the data
@@ -50,7 +50,7 @@ The presentation will outline a synopsis of what our overall project signifies. 
 
 ### Technologies, languages, tools, and algorithms used throughout the project
   - Languages used: Python/Jupyter Notebook/PostgresSQL
-  - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
+  - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import the data
 
 ### Results of analysis
 - Mentioned in Machine Learning section below.
@@ -180,7 +180,7 @@ The $R^2$ quantity is a measure of the accuracy of the model. Here the training 
 
 
 ## Database
-The database we decided to use was PGAdmin PGAdmin is simple to use and manipulate the needed data provided by our csv. PGAdmin allows us to have a clean and clear interface which helps us in building the necessary queries. PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
+The database we decided to use was PGAdmin. PGAdmin is simple to use and manipulate the needed data provided by our csv. PGAdmin allows us to have a clean and clear interface which helps us in building the necessary queries. PGAmin was chosen over other databases because it was more manageable to integrate information into and out of. 
 
 ### Database stores static data for use during the project
 ### Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
