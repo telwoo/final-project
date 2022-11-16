@@ -23,7 +23,7 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Round cut diamonds are the most heavily requested diamond cut
 
 ### Description of their source of data
-  - Link to [diamondse](https://www.diamondse.info/diamond-prices.asp)
+  - Link to [DiamondSE.info](https://www.diamondse.info/diamond-prices.asp)
   	-  Generation engine that allows for diamond price comparisons. You can update different features that you want (say a heart shaped, 5 carat diamond with a D color grade, the site will populate jeweler/price/etc for you)  
   - Link to [Kaggle](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices)
 	-  Diamond price CVS dataset used within our project for determine needed criteria
@@ -53,15 +53,15 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
 
 ### Results of analysis
-- say what learned from machine learning model.
-- say what it leads us to believe
+- Mentioned in Machine Learning section below.
 
 ### Recommendation for future analysis
-- Fitting test data for ideal cuts and 
-- Drop unrelated features so that zeros are removed
+- Mentioned in Machine Learning section below.
 
 ### Anything team would have done differently
 - An issue we ran into concerned the use of PostgresSQL database through PGadmin for our project, involving the fact that the database was local. To correct this on any future project we would want to upgrade the database to AWS, which would open the database up to better communication options.
+- Within our data source ([DiamondSE.info](https://www.diamondse.info/diamond-prices.asp), we would've tried to scrape more round cut diamonds, and scrape for the additional feature diamond shape (e.g. Marquise, Heart, or Princess).
+- Additonal model refinement of the model is mentioned in Machine Learning section below.
 
 ### Slides Presentations are drafted in Google Slides.
 Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244).
@@ -72,11 +72,6 @@ Team presented 11/17/2022, as group 1.
 ## Github
 
 Through the course of this project we had to merge 4 seperate GitHub accounts. Chauntel created the repository to host the code for the final project. We aligned on naming the repository final-project. After Chauntel created the repository, she invited Graeme, Suchitra, and Matthew to collaborate. In total we had to have 17 branches and 4 commits per branch (per team member). Through this process we learned to: merge on the master branch, perform quality assurance, test the code, and navigate through merge conflicts as a team. 
-
-### Communication
-*To ensure effective communication, we aligned on availabilities early on and created a communication plan.*
-![image](https://user-images.githubusercontent.com/102767530/201246602-55388ca8-be5f-42ab-b50c-21e5d0e576f1.png)
-
 
 ### Presentation Slide Deck
 ## [Link to Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_287)
