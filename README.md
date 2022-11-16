@@ -58,7 +58,8 @@ The presentation will outline a synopsis of what our overall project signifies. 
 -what it leads us to believe
 
 ### Recommendation for future analysis
--what could this allow us to do or any alternatives that could be made
+- Fitting test data for ideal cuts and 
+- Drop features that have the zero
 
 ### Anything team would have done differently
 -info of what was done differently
