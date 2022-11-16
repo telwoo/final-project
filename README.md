@@ -1,7 +1,7 @@
 # Final Project - Diamonds 💎 are forever... but is their value? 🧐
 
 # Table of Contents
-- [Group Project Presentation](#presentation)
+- [Group Project Presentation — Google Slides](#presentation)
 - [Github](#github)
 - [Machine Learning Model — Ordinary Least Squares](#machine-learning)
 - [Database — PostgreSQL](#database)
