@@ -100,7 +100,7 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 
 All of the EDA was done via the pandas_profiling ProfileReport module. An interactive report was generated in [EDA.ipynb](./EDA.ipynb) which provided an efficient and thorough means to explore the data set.
 
-One of the main observations to come out of the EDA was that price varies quite linearly with carat, which suggests that linear regression with carat as a feature (and not some transformation of carat such as $carat^2$) would be worthwhile.
+One of the main observations to come out of the EDA was that price varies quite linearly with carat, which suggests that linear regression with carat as a feature (and not some transformation of $carat$ such as $carat^2$) would be worthwhile.
 
 ![price v. carat](Resources/EDA_price_carat.png)
 
