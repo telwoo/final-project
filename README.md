@@ -9,7 +9,7 @@ Diamonds have a variety of measurable characteristics that contribute to the ove
 The presentation will outline a synopsis of what our overall project signifies. Our reasoning for topic selection, source of data, questions to answer, and data exploration/analysis can be explained below. 
 
 ### Selected topic
-  - Analyzing the measurements and classifications of diamond s 
+  - Analyzing the measurements and classifications of diamonds 
   -  Provided insight on how diamond modifications affect pricing
   -  Intended audience:
     - Jewelry appraisers (Informs consumers who want to make a purchase)
