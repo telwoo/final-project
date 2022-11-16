@@ -58,7 +58,7 @@ The presentation will outline a synopsis of what our overall project signifies. 
 
 ### Recommendation for future analysis
 - Fitting test data for ideal cuts and 
-- Drop features that have the zero
+- Drop unrelated features so that zeros are removed
 
 ### Anything team would have done differently
 -info of what was done differently
