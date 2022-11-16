@@ -52,8 +52,22 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Languages used: Python/Jupyter Notebook/PostgresSQL
   - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
 
+**MODIFY THIS SECTION**
+## Results of analysis
+-what learned from machine learning model.
+-what it leads us to believe
+
+## Recommendation for future analysis
+-what could this allow us to do or any alternatives that could be made
+
+## Anything team would have done differently
+-info of what was done differently
+
 ### Slides Presentations are drafted in Google Slides.
 Link to [Google Slides](https://docs.google.com/presentation/d/1XJpQY-igD12Sf8y8fvGjSy90BnF5JdpsV4NLWPnvuMo/edit#slide=id.g17d5b46eb50_0_244).
+
+### Live Presentation
+Team presented 11/17/2022, as group 1. 
 
 ## Github
 
