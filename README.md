@@ -140,7 +140,13 @@ This is not the case for ordinary least squares multivariate regression modellin
 
 ### Explanation of model choice, including limitations and benefits
 
-The data was modelled using ordinary least-squares multivariate linear regression. The model was chosen, because the data presents a supervised learning problem (diamond price is the model target), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast. 
+The data was modelled using ordinary least-squares multivariate linear regression. The model was chosen, because the data presents a supervised learning problem (diamond price is the model target), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast.
+
+The equation for the ordinary least-squares multivariate regression model is:
+
+$ price = b_0 + b_1 x + b_2 x + ... + b_i x + ... + b_n x + \epsilon,$
+
+where the $ b_i $ are the feature coefficients
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
