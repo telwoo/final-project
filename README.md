@@ -206,7 +206,7 @@ The database we decided to use was PGAdmin PGAdmin is simple to use and manipula
   
   <sup> Fig. This image showcases the tables created, utilizing the outer full join </sup>
 
-- Taking advantage of SQLAlchemy the full table "" is pulled into the machine learning script.
+- Taking advantage of SQLAlchemy the full table "" is pulled into the machine learning script .
 
 ## Dashboard
 ### Images from the initial analysis
