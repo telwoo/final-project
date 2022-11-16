@@ -53,14 +53,14 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
 
 **MODIFY THIS SECTION**
-## Results of analysis
+### Results of analysis
 -what learned from machine learning model.
 -what it leads us to believe
 
-## Recommendation for future analysis
+### Recommendation for future analysis
 -what could this allow us to do or any alternatives that could be made
 
-## Anything team would have done differently
+### Anything team would have done differently
 -info of what was done differently
 
 ### Slides Presentations are drafted in Google Slides.
