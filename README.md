@@ -52,7 +52,6 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Languages used: Python/Jupyter Notebook/PostgresSQL
   - Algorithm used: sklearn.model_selection, R-Squared and Ordinary Leasing Square model to scale the features and split/train/import data
 
-**MODIFY THIS SECTION**
 ### Results of analysis
 -what learned from machine learning model.
 -what it leads us to believe
