@@ -1,5 +1,12 @@
 # Final Project - Diamonds 💎 are forever... but is their value? 🧐
 
+# Table of Contents
+- [Presentation of Group Project](#presentation)
+- [Use of Github](#github)
+- [Machine Learning Model (Ordinary Least Squares)](#machine-learning)
+- [PostgreSQL Database](#database)
+- [Tableau Dashboard](#dashboard)
+
 # Overview
 
 Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. This study is a supervised learning problem because each diamond and it's features are associated with a target price. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond to understand the numerical value in the year 2022.
