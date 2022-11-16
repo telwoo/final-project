@@ -60,7 +60,7 @@ The presentation will outline a synopsis of what our overall project signifies. 
 
 ### Anything team would have done differently
 - An issue we ran into concerned the use of PostgresSQL database through PGadmin for our project, involving the fact that the database was local. To correct this on any future project we would want to upgrade the database to AWS, which would open the database up to better communication options.
-- Within our data source ([DiamondSE.info](https://www.diamondse.info/diamond-prices.asp), we would've tried to scrape more round cut diamonds, and scrape for the additional feature diamond shape (e.g. Marquise, Heart, or Princess).
+- Within our data source [DiamondSE.info](https://www.diamondse.info/diamond-prices.asp), we would've tried to scrape more round cut diamonds, and scrape for the additional feature diamond shape (e.g. Marquise, Heart, or Princess).
 - Additonal model refinement of the model is mentioned in Machine Learning section below.
 
 ### Slides Presentations are drafted in Google Slides.
