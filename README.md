@@ -243,7 +243,7 @@ The database we decided to use was PGAdmin. PGAdmin is simple to use and manipul
 
 - Taking advantage of SQLAlchemy the full table "" is pulled into the machine learning script.
 
-## Dashboard
+## Dashboard 
 ### Images from the initial analysis
 ### Data (images or report) from the machine learning task
 ### At least one interactive element
