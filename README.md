@@ -151,15 +151,27 @@ The data was modelled using ordinary least-squares (OLS) multiple linear regress
 
 The equations for the ordinary least-squares multiple linear regression model are:
 
-|     |      |
-| --- | ---: |
-| $$ y_i = b_0 + b_1 x_{i,1} + b_{i,2} x_{i,2} + ... + b_j x_{i,j} + ... + b_p x_{i,p} + \epsilon_i$$ | (3.1) |
-| $$ R^2 = 1 - RSS/TSS $$ | (3.2) |
-| $$ TSS = \Sigma (y_i - \overline{y})^2 $$ | (3.3) |
-| $$ RSS = \Sigma (y_i - \hat{y}_i)^2 $$ | (3.4) |
-| $$ RSS = \epsilon_1^2 + \epsilon_2^2 + ... + \epsilon_i^2 + ... + \epsilon_n^2 $$ | (3.5) |
+1. $$ y_i = \beta_0 + \beta_1 x_{i,1} + \beta_{i,2} x_{i,2} + ... + \beta_j x_{i,j} + ... + \beta_p x_{i,p} + \epsilon_i $$ 
+    - there are $i = 1$ to $n$ observations (rows, data points)
+    - there are $p$ features
+    - observation $i$ is the data point $(y_i, x_{i,1}, x_{i,2}, ..., x_{i,j})$
+    - the $\beta_j$ are feature coefficients
+    - $x_{i,j}$ is observation $i$ of feature $j$
+    - $\epsilon_i$ is the error (residual) of observation $i$ 
 
-where the $b_i$  are the feature coefficients
+2. $$ R^2 = 1 - RSS/TSS $$
+    - $R^2$ is the residual sum of squares (coefficient of determination). It is the measure of accuracy of OLS models which predict continuous target estimates ($\hat{y}_i$). $R^2$ is the fraction of the variance in the data that can be explained by the OLS model.
+
+3. $$ TSS = \Sigma (y_i - \overline{y})^2 $$
+    - $TSS$ is the total sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the mean $\overline{y}$ value. 
+
+4. $$ RSS = \Sigma (y_i - \hat{y}_i)^2 $$
+
+5. $$ RSS = \epsilon_1^2 + \epsilon_2^2 + ... + \epsilon_i^2 + ... + \epsilon_n^2 
+$$
+    - equations (4) and (5) are equivalent
+    - $RSS$ is the residual sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the $\hat{y}_i$ values estimated by the OLS model.
+    - the OLS model finds all $\beta_j$ that minimizes $RSS$
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
