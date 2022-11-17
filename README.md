@@ -184,8 +184,8 @@ The model was trained (with the training data) on all 26 features described abov
 - The sklearn.linear_model LinearRegression() function was used as it allows easy calculation of the testing $R^2$ quantity.
 Both implementations gave the same interpretations of the data.
 
-### Confusion matrix not used for ...
-The confusion matrix is used to tell you how many predictions were classified correctly or incorrectly. You are looking at a regression model, which gives you a continous output (not classification).
+### Confusion matrix: not used for continuous target estimates
+The confusion matrix is used to tell you how many predictions were classified correctly or incorrectly. The OLS linear regression used to model to the data in this study predicts a continous target output, not a discrete classification. Therefore, a confusion matrix is not applicable. The accuracy of the OLS linear regression model is characterized by the $R^2$ coefficient of determination described in the equations above and the "accuracy of model" section below. 
 
 ### Description of current accuracy score
 There are two important considerations from the modelling. Do the features used contribute significantly to the model? What is the model accuracy?
