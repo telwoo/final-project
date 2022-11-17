@@ -235,7 +235,7 @@ The database we decided to use was PGAdmin. PGAdmin is simple to use and manipul
   5. Used connection string, SQLAlchemy to migrate our data
     * Choose SQLAlchemy because is very simple to implement and allows us to easily allow communication between 						python programs and PGAdmin. 
 
-- Utilizing the online tool from www.quickdatabasediagrams.com for building an ER diagram, we were able to produce a schema for our single table database and used PGadmin within a postgresql database to store the data locally.
+- Utilizing the online tool from [QuickData](www.quickdatabasediagrams.com) for building an ER diagram, we were able to produce a schema for our single table database and used PGadmin within a postgresql database to store the data locally.
 - Starting with two separate tables based on diamond numeric values (ie. carat, dimensions, price, etc) and characteristic values (ie. cut quality, color designation, and clarity designation), these tables were join, or combined, into a single full diamond data table.
 - The two images below are the ERDs related to the tables create in our chosen database, PGAdmin. The tables displayed within each of the charts are centered around the "diamond_prices.csv" file. Each of the tables created are based on the cut of the diamond: fair, good, very good, ideal, and premium.
   
