@@ -25,7 +25,7 @@ The presentation will outline a synopsis of what our overall project signifies. 
     - Distributors (Jeweler)
     - Consumer (YOU!)
   
-### Reason why they selected their topic
+### Reason why they selected their topic 
   - We chose this topic because it gave us a greater idea of changes for diamonds
   - Diamonds are a very good resource, and is highly demanded
   - Round cut diamonds are the most heavily requested diamond cut
