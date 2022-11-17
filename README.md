@@ -152,9 +152,13 @@ The data was modelled using ordinary least-squares (OLS) multiple linear regress
 The equations for the ordinary least-squares multiple linear regression model are:
 
 $$ y_i = b_0 + b_1 x_{i,1} + b_{i,2} x_{i,2} + ... + b_j x_{i,j} + ... + b_p x_{i,p} + \epsilon_i$$
+
 $$ R^2 = 1 - RSS/TSS $$
+
 $$ TSS = \Sigma (y_i - \overline{y})^2 $$
+
 $$ RSS = \Sigma (y_i - \hat{y}_i)^2 $$
+
 $$ RSS = \epsilon_1^2 + \epsilon_2^2 + ... + \epsilon_i^2 + ... + \epsilon_n^2 $$
 
 where the $b_i$  are the feature coefficients
