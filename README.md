@@ -175,7 +175,7 @@ $$
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
-The choice of model did not change from last week.
+The initial choice of the OLS multiple linear regression model did not change.
 
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
