@@ -112,6 +112,7 @@ One of the main observations to come out of the EDA was that price varies quite 
 ![price v. carat](Resources/EDA_price_carat.png)
 
 ### Description of data preprocessing
+- From here through the rest of the Machine Learning section the machine learning analysis was performed in [OLS_modeling.ipynb](OLS_modeling.ipynb).
 - There are no missing values to address.
 - There are zeros in x, y, and z, which can be considered missing numbers (no diamonds have a zero length, width, or depth). All y zeros have x zeros, and all x zeros have z zeros.
     - All rows (8 rows) with x zeros were removed.
