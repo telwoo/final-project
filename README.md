@@ -1,5 +1,12 @@
 # Final Project - Diamonds 💎 are forever... but is their value? 🧐
 
+# Table of Contents
+- [Group Project Presentation — Google Slides](#presentation)
+- [Github](#github)
+- [Machine Learning Model — Ordinary Least Squares](#machine-learning)
+- [Database — PostgreSQL](#database)
+- [Dashboard — Tableau](#dashboard)
+
 # Overview
 
 Diamonds have a variety of measurable characteristics that contribute to the overall value of the diamond itself. This study is a supervised learning problem because each diamond and it's features are associated with a target price. As a group of data scientists, we are interested in analyzing the measurements and classifications of a diamond to understand the numerical value in the year 2022.
@@ -93,7 +100,7 @@ please see [Understanding Diamond Table and Depth](https://www.brilliance.com/ed
 
 All of the EDA was done via the pandas_profiling ProfileReport module. An interactive report was generated in [EDA.ipynb](./EDA.ipynb) which provided an efficient and thorough means to explore the data set.
 
-One of the main observations to come out of the EDA was that price varies quite linearly with carat, which suggests that linear regression with carat as a feature (and not some transformation of carat such as $carat^2$) would be worthwhile.
+One of the main observations to come out of the EDA was that price varies quite linearly with $carat$, which suggests that linear regression with $carat$ as a feature (and not some transformation of $carat$ such as $carat^2$) would be worthwhile.
 
 ![price v. carat](Resources/EDA_price_carat.png)
 
@@ -132,19 +139,43 @@ In the end, we want a model that can most accurately predict new or unseen data.
 In practice, experience has shown that the best results can be obtained by having the size of the training data set be larger than that of the test data set. Here we used the sklearn.model_selection train_test_split() function to split the data as 75% training and 25% testing.
 
 ### Data Scaling
-The data in this study was not scaled for the ordinary least squares multivariate regression model.
+The data in this study was not scaled for the ordinary least squares (OLS) multiple linear regression model.
 
 For some machine learning models, data scaling improves model training and subsequent predictive performance.
 
-This is not the case for ordinary least squares multivariate regression modelling. Moreover, by not scaling the data, the feature coefficients of the trained model can be used to interpret the trained model fit.
+This is not the case for OLS multiple linear regression modelling. Moreover, by not scaling the data, the feature coefficients of the trained model can be used to interpret the trained model fit.
 
 ### Explanation of model choice, including limitations and benefits
 
-The data was modelled using ordinary least-squares multivariate linear regression. The model was chosen, because the data presents a supervised learning problem (diamond price is the model target), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast. 
+The data was modelled using ordinary least-squares (OLS) multiple linear regression. This model was chosen because the data presents a supervised learning problem (diamond price is the model target), the target price is a continuous variable (not a discrete classification), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast.
 
-### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+The equations for the ordinary least-squares multiple linear regression model are:
 
-The choice of model did not change from last week.
+1. $$ y_i = \beta_0 + \beta_1 x_{i,1} + \beta_{i,2} x_{i,2} + ... + \beta_j x_{i,j} + ... + \beta_p x_{i,p} + \epsilon_i $$ 
+    - there are $i = 1$ to $n$ observations (rows, data points)
+    - there are $p$ features
+    - observation $i$ is the data point $(y_i, x_{i,1}, x_{i,2}, ..., x_{i,j})$
+    - the $\beta_j$ are feature coefficients
+    - $x_{i,j}$ is observation $i$ of feature $j$
+    - $\epsilon_i = y_i - \hat{y}_i$ is the error (residual) of observation $i$
+
+2. $$ R^2 = 1 - RSS/TSS $$
+    - $R^2$ is the residual sum of squares (coefficient of determination). It is the measure of accuracy of OLS models which predict continuous target estimates ( $\hat{y}_i$ ). $R^2$ is the fraction of the variance in the data that can be explained by the OLS model.
+
+3. $$ TSS = \Sigma (y_i - \overline{y})^2 $$
+    - $TSS$ is the total sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the mean $\overline{y}$ value. The mean $\overline{y}$ can be considered the estimate of the data without OLS modelling.
+
+4. $$ RSS = \Sigma (y_i - \hat{y}_i)^2 $$
+
+5. $$ RSS = \epsilon_1^2 + \epsilon_2^2 + ... + \epsilon_i^2 + ... + \epsilon_n^2 
+$$
+    - equations (4) and (5) are equivalent
+    - $RSS$ is the residual sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the $\hat{y}_i$ values estimated by the OLS model.
+    - the OLS model finds all $\beta_j$ that minimizes $RSS$
+
+### Explanation of changes in model choice
+
+The initial choice of the OLS multiple linear regression model did not change.
 
 ### Description of how they have trained the model thus far, and any additional training that will take place
 
@@ -152,6 +183,9 @@ The model was trained (with the training data) on all 26 features described abov
 - The statsmodels.api OLS() function was used as it allows easy calculation of p-values for training feature coefficients.
 - The sklearn.linear_model LinearRegression() function was used as it allows easy calculation of the testing $R^2$ quantity.
 Both implementations gave the same interpretations of the data.
+
+### Confusion matrix: not used for continuous target estimates
+The confusion matrix is used to tell you how many predictions were classified correctly or incorrectly. The OLS linear regression used to model to the data in this study predicts a continous target output, not a discrete classification. Therefore, a confusion matrix is not applicable. The accuracy of the OLS linear regression model is characterized by the $R^2$ coefficient of determination described in the equations above and the "accuracy of model" section below. 
 
 ### Description of current accuracy score
 There are two important considerations from the modelling. Do the features used contribute significantly to the model? What is the model accuracy?
