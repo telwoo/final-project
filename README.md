@@ -160,7 +160,7 @@ The equations for the ordinary least-squares multiple linear regression model ar
     - $\epsilon_i$ is the error (residual) of observation $i$ 
 
 2. $$ R^2 = 1 - RSS/TSS $$
-    - $R^2$ is the residual sum of squares (coefficient of determination). It is the measure of accuracy of OLS models which predict continuous target estimates ($\hat{y}_i$). $R^2$ is the fraction of the variance in the data that can be explained by the OLS model.
+    - $R^2$ is the residual sum of squares (coefficient of determination). It is the measure of accuracy of OLS models which predict continuous target estimates ( $\hat{y}_i$ ). $R^2$ is the fraction of the variance in the data that can be explained by the OLS model.
 
 3. $$ TSS = \Sigma (y_i - \overline{y})^2 $$
     - $TSS$ is the total sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the mean $\overline{y}$ value. 
