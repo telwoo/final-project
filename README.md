@@ -139,15 +139,15 @@ In the end, we want a model that can most accurately predict new or unseen data.
 In practice, experience has shown that the best results can be obtained by having the size of the training data set be larger than that of the test data set. Here we used the sklearn.model_selection train_test_split() function to split the data as 75% training and 25% testing.
 
 ### Data Scaling
-The data in this study was not scaled for the ordinary least squares (OLS multiple linear regression model.
+The data in this study was not scaled for the ordinary least squares (OLS) multiple linear regression model.
 
 For some machine learning models, data scaling improves model training and subsequent predictive performance.
 
-This is not the case for ordinary least squares multiple linear regression modelling. Moreover, by not scaling the data, the feature coefficients of the trained model can be used to interpret the trained model fit.
+This is not the case for OLS multiple linear regression modelling. Moreover, by not scaling the data, the feature coefficients of the trained model can be used to interpret the trained model fit.
 
 ### Explanation of model choice, including limitations and benefits
 
-The data was modelled using ordinary least-squares (OLS) multiple linear regression. The model was chosen, because the data presents a supervised learning problem (diamond price is the model target), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast.
+The data was modelled using ordinary least-squares (OLS) multiple linear regression. This model was chosen because the data presents a supervised learning problem (diamond price is the model target), the target price is a continuous variable (not a discrete classification), there are no anticipated complicated patterns to the data that require a more complex/deep model, the model is well-understood, the model allows understandable predictions to be made, and the model is computationally fast.
 
 The equations for the ordinary least-squares multiple linear regression model are:
 
@@ -157,13 +157,13 @@ The equations for the ordinary least-squares multiple linear regression model ar
     - observation $i$ is the data point $(y_i, x_{i,1}, x_{i,2}, ..., x_{i,j})$
     - the $\beta_j$ are feature coefficients
     - $x_{i,j}$ is observation $i$ of feature $j$
-    - $\epsilon_i$ is the error (residual) of observation $i$ 
+    - $\epsilon_i = y_i - \hat{y}_i$ is the error (residual) of observation $i$
 
 2. $$ R^2 = 1 - RSS/TSS $$
     - $R^2$ is the residual sum of squares (coefficient of determination). It is the measure of accuracy of OLS models which predict continuous target estimates ( $\hat{y}_i$ ). $R^2$ is the fraction of the variance in the data that can be explained by the OLS model.
 
 3. $$ TSS = \Sigma (y_i - \overline{y})^2 $$
-    - $TSS$ is the total sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the mean $\overline{y}$ value. 
+    - $TSS$ is the total sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the mean $\overline{y}$ value. The mean $\overline{y}$ can be considered the estimate of the data without OLS modelling.
 
 4. $$ RSS = \Sigma (y_i - \hat{y}_i)^2 $$
 
@@ -173,7 +173,7 @@ $$
     - $RSS$ is the residual sum of squares, i.e. the sum of the squares of the distances between the observed $y_i$ values and the $\hat{y}_i$ values estimated by the OLS model.
     - the OLS model finds all $\beta_j$ that minimizes $RSS$
 
-### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+### Explanation of changes in model choice
 
 The initial choice of the OLS multiple linear regression model did not change.
 
