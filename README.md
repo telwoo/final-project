@@ -12,9 +12,9 @@ The presentation will outline a synopsis of what our overall project signifies. 
   - Analyzing the measurements and classifications of diamonds 
   -  Provided insight on how diamond modifications affect pricing
   -  Intended audience:
-    - Jewelry appraisers (Informs consumers who want to make a purchase)
     - Raw Supplier (Mining Company)
-    - Distributors (Jewelers)
+    - Jewelry Appraisers (prices the diamond)
+    - Distributors (Jewelers who sell the diamond)
     - Consumer (YOU!)
   
 ### Reason why they selected their topic
