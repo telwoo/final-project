@@ -159,7 +159,7 @@ The data was modelled using ordinary least-squares (OLS) multiple linear regress
 
 The equations for the ordinary least-squares multiple linear regression model are:
 
-1. $$ y_i = \beta_0 + \beta_1 x_{i,1} + \beta_{i,2} x_{i,2} + ... + \beta_j x_{i,j} + ... + \beta_p x_{i,p} + \epsilon_i $$ 
+1. $ y_i = \beta_0 + \beta_1 x_{i,1} + \beta_{i,2} x_{i,2} + ... + \beta_j x_{i,j} + ... + \beta_p x_{i,p} + \epsilon_i $
     - there are $i = 1$ to $n$ observations (rows, data points)
     - there are $p$ features
     - observation $i$ is the data point $(y_i, x_{i,1}, x_{i,2}, ..., x_{i,j})$
